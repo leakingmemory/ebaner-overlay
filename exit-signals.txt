@@ -1,0 +1,4 @@
+# ebaner exit signals (main signals). The signal stands on the start
+# border and protects the route to the destination border.
+# exit <id> <name> <startTrackHex>:<frac> <endTrackHex>:<frac> [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+exit 1 E1 709:0.755826 709:0.601749 709:0.755826:0.601749
