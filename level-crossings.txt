@@ -1,0 +1,6 @@
+# ebaner level crossings, secured by lights alone (no barriers). Four heads,
+# red over white, flashing; three detection circuits of the crossing's own.
+# crossing <id> "<name>" <trackHex>:<frac> [<outerM>]
+# outerM is optional: left out, the approach distance is derived from the line
+# speed here, which is what nearly every crossing should do.
+crossing 1 "NO ROG Botn" 6ac:0.876443
