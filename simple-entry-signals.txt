@@ -1,0 +1,7 @@
+# ebaner simple entry signals. Red or green, no track circuits and no routes;
+# the only interlocking is that a station shows one green at a time.
+# entry <id> "<name>" <trackHex>:<frac> <+|-> ["<station>"]
+# + governs movements toward increasing frac. The station is optional and
+# normally left out: the nearest one is used, which cannot go stale.
+entry 1 "NO FSK 1" 6d7:0.444792 +
+entry 2 "NO FSK 2" 6d9:0.131977 -
