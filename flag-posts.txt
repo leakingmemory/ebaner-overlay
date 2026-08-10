@@ -1,0 +1,6 @@
+# ebaner flag posts: the hand signal a station's TXP hangs out. Red is stop,
+# green is pass through, an empty fixture is neither (or the station is
+# unmanned). R/L is which side of the track the post stands on - the flag
+# hangs and reads from either direction, so there is no facing.
+# flag <id> "<name>" <trackHex>:<frac> <R|L> ["<station>"]
+flag 1 "FAU FLAG" 6d7:0.710243 L

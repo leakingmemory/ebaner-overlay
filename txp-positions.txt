@@ -1,0 +1,7 @@
+# ebaner TXP positions: where the station's TXP stands to give a stopped train
+# permission to leave, holding up a white sign with a green circle.
+# +/- is the direction the train departs in - the TXP faces back against it -
+# and R/L is which side of the track they stand on, relative to increasing
+# frac and independent of the direction.
+# txp <id> "<name>" <trackHex>:<frac> <+|-> <R|L> ["<station>"]
+txp 1 "NO FSK CARGO WEST" 76c7:0.149729 + R
