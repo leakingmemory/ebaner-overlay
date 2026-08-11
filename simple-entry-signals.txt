@@ -5,3 +5,5 @@
 # normally left out: the nearest one is used, which cannot go stale.
 entry 1 "NO FSK 1" 6d7:0.444792 +
 entry 2 "NO FSK 2" 6d9:0.131977 -
+entry 3 "OTR 2" 6f1:0.338811 -
+entry 4 "OTR 1" 6f1:0.00864939 +

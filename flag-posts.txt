@@ -4,3 +4,4 @@
 # hangs and reads from either direction, so there is no facing.
 # flag <id> "<name>" <trackHex>:<frac> <R|L> ["<station>"]
 flag 1 "FAU FLAG" 6d7:0.710243 L
+flag 2 "OTR FLAG" 6f1:0.139988 L
