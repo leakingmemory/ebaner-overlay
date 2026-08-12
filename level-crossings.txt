@@ -8,3 +8,5 @@
 # what nearly every crossing should do.
 crossing 1 "NO ROG Botn" 6ac:0.876443
 crossing 2 "NO OTR Mjones" 6ed:0.854591 barriers
+crossing 3 "FAU Klungset" 6d9:0.618815 barriers
+crossing 4 "ROG Noth" 6a6:0.957563 barriers
