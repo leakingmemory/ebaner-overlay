@@ -9,3 +9,7 @@ entry 3 "OTR 2" 6f1:0.338811 -
 entry 4 "OTR 1" 6f1:0.00864939 +
 entry 5 "ROG 1" 6a6:0.815452 +
 entry 6 "ROG 2" 6a6:0.92825 -
+entry 7 "LN 1" 684:0.459728 +
+entry 8 "LN 2" 684:0.529965 -
+entry 9 "BOL 1" 674:0.564072 +
+entry 10 "BOL 2" 674:0.638386 -
