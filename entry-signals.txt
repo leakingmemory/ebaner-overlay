@@ -1,8 +1,12 @@
 # ebaner entry signals (main signals). The signal stands on the start
 # border and the record is the whole route into the station; several
 # sharing a start border are one signal governing them all.
-# entry <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# entry <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 entry 1 "NO BOD TRACK 1 ENTRY" 709:0.601749 709:0.999678 type C1 709:0.601749:0.999678
 entry 2 "NO BOD TRACK 2 ENTRY" 709:0.601749 31ae:0.16644 type C2 709:0.601749:0.823233 31ae:1:0.16644
 entry 3 "NO BOD TRACK 3 ENTRY" 709:0.601749 31b3:0.00586884 type C2 709:0.601749:0.78903 31b3:1:0.00586884
 entry 4 "NO BOD TRACK 4 ENTRY" 709:0.601749 31b0:0.8957 type C2 709:0.601749:0.78903 31b3:1:0.896886 31b0:0:0.8957
+entry 5 "NO SEG ENS1" 650:0.277637 650:0.485287 type C1 distant 650:0.277637:0.485287
+entry 6 "NO SEG ENS2" 650:0.277637 37db:0.881107 type C2 distant 650:0.277637:0.333595 37db:0:0.881107
+entry 7 "NO SEG ENN1" 650:0.556213 650:0.348625 type C1 distant 650:0.556213:0.348625
+entry 8 "NO SEG ENN2" 650:0.556213 37db:0.0886833 type C2 distant 650:0.556213:0.505933 37db:1:0.0886833

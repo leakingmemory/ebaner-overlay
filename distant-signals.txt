@@ -2,3 +2,5 @@
 # not on a border, and repeats what the first main signal ahead is showing.
 # distant <id> "<name>" <trackHex>:<frac> <+|->   (+ reads toward increasing frac)
 distant 1 "NO BOD EAST DISTANT" 709:0.268476 +
+distant 2 "NO SEG 1" 650:0.103046 +
+distant 3 "NO SEG 2" 650:0.832764 -
