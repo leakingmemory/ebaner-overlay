@@ -1,12 +1,16 @@
-# ebaner level crossings. Four heads, red over white, flashing; three detection
-# circuits of the crossing's own. Secured by lights alone unless `barriers` says
-# otherwise, in which case a boom each side covers the lane its traffic arrives
-# on. Both variants light and ring the same.
-# crossing <id> "<name>" <trackHex>:<frac> [<outerM>] [barriers]
-# Both trailing fields are optional and may come in either order. outerM left
-# out means the approach distance is derived from the line speed here, which is
-# what nearly every crossing should do.
+# ebaner level crossings. Heads red over white, flashing, a pair facing the
+# trains on each track it spans and a pair facing the road; three detection
+# circuits per track, of the crossing's own. Secured by lights alone unless
+# `barriers` says otherwise, in which case a boom each side covers the lane its
+# traffic arrives on. Both variants light and ring the same.
+# crossing <id> "<name>" <trackHex>:<frac> [also <trackHex>:<frac>]... [<outerM>] [barriers]
+# Every trailing field is optional and they may come in any order. `also` names
+# another track of the *same* crossing - one road shut and one bell, with its
+# own circuits per track - which is what a crossing inside a station needs.
+# outerM left out means the approach distance is derived from the line speed
+# here, which is what nearly every crossing should do.
 crossing 1 "NO ROG Botn" 6ac:0.876443
 crossing 2 "NO OTR Mjones" 6ed:0.854591 barriers
 crossing 3 "FAU Klungset" 6d9:0.618815 barriers
 crossing 4 "ROG Noth" 6a6:0.957563 barriers
+crossing 5 "NO SEG W" 650:0.443992 also 37db:0.640015
