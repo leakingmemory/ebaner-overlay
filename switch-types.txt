@@ -2,9 +2,16 @@
 # switch <trackIdHex> <x> <y> motor [lock <sectionId> ...]
 switch 37db 470609.281 7360347.000 motor lock 12
 switch 37db 471247.938 7360846.500 motor lock 15
+switch d65 460690.969 7354153.500 motor lock 16
+switch 37d6 461156.312 7354484.500 motor lock 19
+switch 37da 461087.281 7354914.500 motor lock 21
+switch 37d1 461052.219 7355133.000 motor lock 24
+switch 37d1 461044.812 7355216.000 motor lock 22
+switch 76e2 461061.281 7355467.500 motor lock 25
 switch 31ae 474182.562 7463597.000 motor lock 3 10
 switch 31b0 474218.531 7463616.000 motor lock 10
 switch 31b3 474261.156 7463629.000 motor lock 10
+switch d0000000 462501.703 7356308.749 motor lock 29
 switch e000006e 474314.670 7463656.614 motor lock 10
 switch e000006e 474339.861 7463668.706 motor lock 10
 switch e000006f 474275.661 7463635.289 motor lock 10
