@@ -1,6 +1,6 @@
 # ebaner exit routes: the authority to move from a border inside the
 # station up to an exit signal, which the signal then displays.
-# route <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# route <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 route 1 "NO BOD TRACK 1 EXIT" 709:0.849372 709:0.755826 signal 1 type C1 709:0.849372:0.755826
 route 2 "NO BOD TRACK 2 EXIT" 31ae:0.852706 709:0.755826 signal 1 type C2 31ae:0.852706:1 709:0.823233:0.755826
 route 3 "NO BOD TRACK 3 EXIT" 31b3:0.756685 709:0.755826 signal 1 type C2 31b3:0.756685:1 709:0.78903:0.755826
@@ -16,3 +16,7 @@ route 12 "NO MO NB T1" 63a:0.56258 63a:0.708127 signal 8 type C1 63a:0.56258:0.7
 route 13 "NO MO NB T2" 37d6:0.552889 63a:0.708127 signal 8 type C2 37d6:0.552889:1 37d4:0:1 76df:0:1 37d1:0:1 63a:0.705589:0.708127
 route 14 "NO MO NB T3" 76e0:0.519996 63a:0.708127 signal 8 type C2 76e0:0.519996:0 37da:0:1 76df:0:1 37d1:0:1 63a:0.705589:0.708127
 route 15 "NO MO EXIT MINING" d0000000:0.259035 d0000000:0.097737 signal 9 type C2 station "Mo i Rana" d0000000:0.259035:0.097737
+route 16 "BJE SB T1" 606:0.958941 606:0.652283 signal 10 type C1 606:0.958941:0.652283
+route 17 "BJE SB T2" 37ca:0.907527 37c8:0.54745 signal 11 type C2 37ca:0.907527:0 37c8:1:0.54745
+route 18 "BJE NB T1" 606:0.652283 606:0.958941 signal 12 type C1 606:0.652283:0.958941
+route 19 "BJE NB T2" 37c8:0.54745 37ca:0.907527 signal 13 type C2 37c8:0.54745:1 37ca:0:0.907527

@@ -1,7 +1,7 @@
 # ebaner entry signals (main signals). The signal stands on the start
 # border and the record is the whole route into the station; several
 # sharing a start border are one signal governing them all.
-# entry <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# entry <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 entry 1 "NO BOD TRACK 1 ENTRY" 709:0.601749 709:0.999678 type C1 709:0.601749:0.999678
 entry 2 "NO BOD TRACK 2 ENTRY" 709:0.601749 31ae:0.16644 type C2 709:0.601749:0.823233 31ae:1:0.16644
 entry 3 "NO BOD TRACK 3 ENTRY" 709:0.601749 31b3:0.00586884 type C2 709:0.601749:0.78903 31b3:1:0.00586884
@@ -18,3 +18,7 @@ entry 13 "NO MO INFN T2" 63a:0.770276 37d6:0.552889 type C2 63a:0.770276:0.70558
 entry 14 "NO MO INFN T3" 63a:0.770276 76e0:0.519996 type C2 63a:0.770276:0.705589 37d1:1:0 76df:1:0 37da:1:0 76e0:0:0.519996
 entry 15 "NO MO INFN MAIN" 63e:0.826377 63a:0.770276 type C1 63e:0.826377:0 f000130d:1:0 63a:1:0.770276
 entry 16 "NO MO INFN MINING" 63e:0.826377 d0000000:0.097737 type C2 station "Mo i Rana" 63e:0.826377:0.54744 d0000000:0:0.097737
+entry 17 "BJE INFS T1" 606:0.475819 606:0.958941 type C1 distant 606:0.475819:0.958941
+entry 18 "BJE INFS T2" 606:0.475819 37ca:0.907527 type C2 distant 606:0.475819:0.625808 37c8:0:1 37ca:0:0.907527
+entry 19 "BJE INFN T1" 60c:0.0351088 606:0.652283 type C1 distant 60c:0.0351088:0 60b:1:0 f00018b5:0:1 608:1:0 607:1:0 606:1:0.652283
+entry 20 "BJE INFN T2" 60c:0.0351088 37c8:0.54745 type C2 distant 60c:0.0351088:0 60b:1:0 f00018b5:0:1 608:1:0 607:1:0 606:1:0.98824 37ca:1:0 37c8:1:0.54745

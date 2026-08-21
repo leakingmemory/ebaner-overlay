@@ -1,6 +1,6 @@
 # ebaner exit signals (main signals). The signal stands on the start
 # border and protects the route to the destination border.
-# exit <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# exit <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 exit 1 "E1" 709:0.755826 709:0.601749 709:0.755826:0.601749
 exit 2 "NO SEG EXS1" 650:0.348625 650:0.277637 650:0.348625:0.277637
 exit 3 "NO SEG EXS2" 37db:0.0886833 650:0.277637 twolamp 37db:0.0886833:0 650:0.333595:0.277637
@@ -10,3 +10,7 @@ exit 6 "NO MO SB T1" 63a:0.56258 63a:0.290739 63a:0.56258:0.290739
 exit 7 "NO MO SB T2" d65:0.970642 63a:0.290739 twolamp d65:0.970642:0 63a:0.435429:0.290739
 exit 8 "NO MO NB EXIT" 63a:0.708127 63e:0.826377 63a:0.708127:1 f000130d:0:1 63e:0:0.826377
 exit 9 "NO MO EXIT MINING" d0000000:0.097737 63e:0.826377 twolamp station "Mo i Rana" d0000000:0.097737:0 63e:0.54744:0.826377
+exit 10 "BJE SB T1" 606:0.652283 606:0.475819 606:0.652283:0.475819
+exit 11 "BJE SB T2" 37c8:0.54745 606:0.475819 twolamp 37c8:0.54745:0 606:0.625808:0.475819
+exit 12 "BJE NB T1" 606:0.958941 60c:0.0351088 606:0.958941:1 607:0:1 608:0:1 f00018b5:1:0 60b:0:1 60c:0:0.0351088
+exit 13 "BJE NB T2" 37ca:0.907527 60c:0.0351088 twolamp 37ca:0.907527:1 606:0.98824:1 607:0:1 608:0:1 f00018b5:1:0 60b:0:1 60c:0:0.0351088

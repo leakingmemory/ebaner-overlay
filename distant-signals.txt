@@ -7,3 +7,5 @@ distant 3 "NO SEG 2" 650:0.832764 -
 distant 4 "NO MO N1" 644:0.102448 -
 distant 5 "NO MO S" 63a:0.138359 +
 distant 6 "NO MO N2" 63a:0.943826 -
+distant 7 "BJE DS" 606:0.0834733 +
+distant 8 "BJE DN" 60c:0.809108 -
