@@ -9,3 +9,5 @@ distant 5 "NO MO S" 63a:0.138359 +
 distant 6 "NO MO N2" 63a:0.943826 -
 distant 7 "BJE DS" 606:0.0834733 +
 distant 8 "BJE DN" 60c:0.809108 -
+distant 9 "DVT S" 5d6:0.928062 +
+distant 10 "DVT N" 5d8:0.428529 -

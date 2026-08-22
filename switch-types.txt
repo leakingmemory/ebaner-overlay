@@ -1,6 +1,8 @@
 # ebaner switch types (manual is default; only motor switches are listed).
 # switch   <trackIdHex> <x> <y> motor [lock <sectionId> ...]
 # noswitch <x> <y> <radius> [<trackIdHex>] [all]  - not really a switch
+switch 56be 430007.250 7328626.500 motor lock 40
+switch 56be 430537.688 7329315.000 motor lock 44
 switch 37c8 447233.750 7336936.500 motor lock 35
 switch 37db 470609.281 7360347.000 motor lock 12
 switch 37db 471247.938 7360846.500 motor lock 15
