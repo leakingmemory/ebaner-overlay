@@ -1,6 +1,6 @@
 # ebaner exit signals (main signals). The signal stands on the start
 # border and protects the route to the destination border.
-# exit <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# exit <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [left] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 exit 1 "E1" 709:0.755826 709:0.601749 709:0.755826:0.601749
 exit 2 "NO SEG EXS1" 650:0.348625 650:0.277637 650:0.348625:0.277637
 exit 3 "NO SEG EXS2" 37db:0.0886833 650:0.277637 twolamp 37db:0.0886833:0 650:0.333595:0.277637
@@ -18,3 +18,7 @@ exit 14 "DVT SB T1" 5d8:0.0637908 5d6:0.995946 5d8:0.0637908:0 5d7:1:0 5d6:1:0.9
 exit 15 "DVT SB T2" 56be:0.0723054 5d6:0.995946 twolamp 56be:0.0723054:0 5d8:0.0526987:0 5d7:1:0 5d6:1:0.995946
 exit 16 "DVT NB T1" 5d8:0.200809 5d8:0.274314 5d8:0.200809:0.274314
 exit 17 "DVT NB T2" 56be:0.935164 5d8:0.274314 twolamp 56be:0.935164:1 5d8:0.211229:0.274314
+exit 18 "MOS LEFT NORTHB" 76f5:0.938546 5c6:0.870029 left 76f5:0.938546:0 5c6:0.362312:0.870029
+exit 19 "MOS T1 NORTHB" 5c6:0.325597 5c6:0.870029 twolamp 5c6:0.325597:0.870029
+exit 20 "MOS T1 SOUTHB" 5c6:0.0234753 5c2:0.426098 left 5c6:0.0234753:0 5c5:1:0 5c4:1:0 5c3:1:0 5c2:1:0.426098
+exit 21 "MOS T2+ SOUTHB" 76ef:0.0957157 5c2:0.426098 twolamp 76ef:0.0957157:1 5c5:1:0 5c4:1:0 5c3:1:0 5c2:1:0.426098

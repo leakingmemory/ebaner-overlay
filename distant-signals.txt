@@ -1,6 +1,8 @@
 # ebaner distant signals (forsignal). Each stands at a plain point along a track,
 # not on a border, and repeats what the first main signal ahead is showing.
-# distant <id> "<name>" <trackHex>:<frac> <+|->   (+ reads toward increasing frac)
+# distant <id> "<name>" <trackHex>:<frac> <+|-> [left]
+# + reads toward increasing frac; the post stands right of that unless it says
+# left, right being the convention and so the silent default.
 distant 1 "NO BOD EAST DISTANT" 709:0.268476 +
 distant 2 "NO SEG 1" 650:0.103046 +
 distant 3 "NO SEG 2" 650:0.832764 -
@@ -11,3 +13,5 @@ distant 7 "BJE DS" 606:0.0834733 +
 distant 8 "BJE DN" 60c:0.809108 -
 distant 9 "DVT S" 5d6:0.928062 +
 distant 10 "DVT N" 5d8:0.428529 -
+distant 11 "MOS N" 5c8:0.391014 -
+distant 12 "MOS S" 5be:0.948033 +
