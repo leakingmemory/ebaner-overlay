@@ -1,0 +1,10 @@
+# ebaner avalanche warning signals: three lamps in a column, red over white
+# over red, protecting a stretch where the mountain can come down on the line.
+# At rest the white flashes - the watch is kept and has nothing to report. On a
+# warning both reds flash and the white goes out. They govern nothing: no route
+# runs through them and no interlocking reads them.
+# +/- is the direction of travel the head is read from; R/L is which side of the
+# track the post stands on, and is independent of it.
+# avalanche <id> "<name>" <trackHex>:<frac> <+|-> <R|L>
+avalanche 1 "Sorfjorden N" 5f8:0.780432 - L
+avalanche 2 "Sorffjorden S" 5f4:0.990818 + L
