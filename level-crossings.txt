@@ -13,6 +13,6 @@ crossing 1 "NO ROG Botn" 6ac:0.876443
 crossing 2 "NO OTR Mjones" 6ed:0.854591 barriers
 crossing 3 "FAU Klungset" 6d9:0.618815 barriers
 crossing 4 "ROG Noth" 6a6:0.957563 barriers
-crossing 5 "NO SEG W" 650:0.443992 also 37db:0.640015
+crossing 5 "NO SEG W" 650:0.443992 also 3648:0.640015
 crossing 6 "DVT N" 5d8:0.457704 barriers
 crossing 7 "DVT S" 5d6:0.233581 barriers

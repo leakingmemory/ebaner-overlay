@@ -4,34 +4,34 @@
 # and R/L is which side of the track they stand on, relative to increasing
 # frac and independent of the direction.
 # txp <id> "<name>" <trackHex>:<frac> <+|-> <R|L> ["<station>"]
-txp 1 "NO FSK CARGO WEST" 76c7:0.149729 + R
+txp 1 "NO FSK CARGO WEST" 738a:0.149729 + R
 txp 2 "NO FSK TRACK 1" 6d7:0.713211 - L
-txp 3 "NO FSK TRACK 2" 36c3:0.322978 - L
-txp 4 "NO FSK CARGO EAST" 76c2:0.740303 - R
+txp 3 "NO FSK TRACK 2" 3531:0.322978 - L
+txp 4 "NO FSK CARGO EAST" 7385:0.740303 - R
 txp 5 "NO BOD TRACK 1" 709:0.997177 + R
-txp 6 "NO BOD TRACK 2" 31ae:0.00930127 - R
-txp 7 "NO BOD CARGO" 76ca:0.435337 - L
+txp 6 "NO BOD TRACK 2" 303b:0.00930127 - R
+txp 7 "NO BOD CARGO" 738d:0.435337 - L
 txp 8 "NO OTR TRACK 1" 6f1:0.137754 - L
-txp 9 "NO OTR TRACK 2" 2e09:0.477236 + R
+txp 9 "NO OTR TRACK 2" 2cde:0.477236 + R
 txp 10 "ROG TRACK 1" 6a6:0.900351 + L
-txp 11 "ROG TRACK 2" 76c8:0.354714 + R
+txp 11 "ROG TRACK 2" 738b:0.354714 + R
 txp 12 "NO LN TRACK 1" 684:0.486971 + R
-txp 13 "NO LN TRACK 2" 37be:0.237834 + L
+txp 13 "NO LN TRACK 2" 362b:0.237834 + L
 txp 14 "BOL TRACK 1" 674:0.599496 - R
-txp 15 "BOL TRACK 2" 2f72:0.325604 - L
+txp 15 "BOL TRACK 2" 2e46:0.325604 - L
 txp 16 "RT DEP" 65e:0.567944 + R
 txp 17 "DUN TRACK 1" 662:0.737743 + L
-txp 18 "DUN TRACK 2" 5608:0.668502 + R
+txp 18 "DUN TRACK 2" 5414:0.668502 + R
 txp 19 "NO SEG TRACK 1" 650:0.3538 - L
-txp 20 "NO SEG TRACK 2" 37db:0.11706 - R
+txp 20 "NO SEG TRACK 2" 3648:0.11706 - R
 txp 21 "DEP T1" 63a:0.643536 + R
-txp 22 "DEP T2" 37d4:0.556757 + L
-txp 23 "NO MO DEP T3" 37da:0.521741 + R
+txp 22 "DEP T2" 3641:0.556757 + L
+txp 23 "NO MO DEP T3" 3647:0.521741 + R
 txp 24 "BJE DEP T1" 606:0.686248 - L
-txp 25 "BJE DEP T2" 37ca:0.0367009 - L
+txp 25 "BJE DEP T2" 3637:0.0367009 - L
 txp 26 "DVT DEP T1" 5d8:0.0708788 - L
-txp 27 "DVT DEP T2" 56be:0.114142 - L
+txp 27 "DVT DEP T2" 54ca:0.114142 - L
 txp 28 "MOS T1" 5c6:0.0387295 - R
-txp 29 "MOS T2" 25b9:0.888717 + R
-txp 30 "MOS T3" 2555:0.167153 - R
-txp 31 "MOS T4" 25be:0.180954 - L
+txp 29 "MOS T2" 24af:0.888717 + R
+txp 30 "MOS T3" 244b:0.167153 - R
+txp 31 "MOS T4" 24b4:0.180954 - L
