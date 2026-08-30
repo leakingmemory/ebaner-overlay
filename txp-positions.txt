@@ -35,3 +35,5 @@ txp 28 "MOS T1" 5c6:0.0387295 - R
 txp 29 "MOS T2" 24af:0.888717 + R
 txp 30 "MOS T3" 244b:0.167153 - R
 txp 31 "MOS T4" 24b4:0.180954 - L
+txp 32 "EIT T1" 5b6:0.736484 + L
+txp 33 "EIT T2" 3658:0.732166 + R

@@ -15,3 +15,6 @@ distant 9 "DVT S" 5d6:0.928062 +
 distant 10 "DVT N" 5d8:0.428529 -
 distant 11 "MOS N" 5c8:0.391014 -
 distant 12 "MOS S" 5be:0.948033 +
+distant 13 "TRO N" 5a0:0.572976 -
+distant 14 "EIT S" 5ae:0.995953 +
+distant 15 "EIT N" 5b8:0.903724 -

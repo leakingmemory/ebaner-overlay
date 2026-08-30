@@ -1,36 +1,10 @@
 # ebaner switch types (manual is default; only motor switches are listed).
 # switch   <trackIdHex> <x> <y> motor [lock <sectionId> ...]
 # noswitch <x> <y> <radius> [<trackIdHex>] [all]  - not really a switch
-switch 54ca 430007.250 7328626.500 motor lock 40
-switch 54ca 430537.688 7329315.000 motor lock 44
-switch 3635 447233.750 7336936.500 motor lock 35
-switch 3648 470609.281 7360347.000 motor lock 12
-switch 3648 471247.938 7360846.500 motor lock 15
-switch 244b 417809.812 7303753.000 motor lock 59
-switch 24af 417859.594 7303658.500 motor lock 50
-switch 24b4 417685.562 7304053.500 motor lock 57
-switch 24b9 417652.938 7304414.500 motor lock 60 62
-switch 73b8 417663.531 7304466.000 motor lock 62
-switch d64 460690.969 7354153.500 motor lock 16
-switch 3647 461087.281 7354914.500 motor lock 21
-switch 73a3 461156.312 7354484.500 motor lock 19
-switch 73b2 417880.375 7303618.000 motor lock 49
-switch 363e 461052.219 7355133.000 motor lock 24
-switch 363e 461044.812 7355216.000 motor lock 22
-switch 73a5 461061.281 7355467.500 motor lock 25
-switch 3637 447572.810 7337734.590 motor lock 38
-switch 303b 474182.562 7463597.000 motor lock 3 10
-switch 303d 474218.531 7463616.000 motor lock 10
-switch 3040 474261.156 7463629.000 motor lock 10
-switch d0000000 462501.703 7356308.749 motor lock 29
-switch e000006e 474314.670 7463656.614 motor lock 10
-switch e000006e 474339.861 7463668.706 motor lock 10
-switch e000006f 474275.661 7463635.289 motor lock 10
-switch e000006f 474300.945 7463647.217 motor lock 10
-switch e0000090 474340.617 7463667.138 motor lock 10
-switch e0000090 474315.414 7463655.057 motor lock 10
-switch e0000091 474301.611 7463645.807 motor lock 10
-switch e0000091 474276.385 7463633.773 motor lock 10
+switch 32d0 425240.656 7269577.500 motor lock 73
+switch 73bd 425321.875 7269088.000 motor lock 76
+switch 3658 419364.875 7287124.500 motor lock 66
+switch 3658 419181.812 7288162.500 motor lock 69
 noswitch 461156.312 7354484.500 3.000 3643
 noswitch 417880.375 7303618.000 3.000 5c6
 noswitch 417652.938 7304414.500 3.000 24af
