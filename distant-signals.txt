@@ -18,3 +18,5 @@ distant 12 "MOS S" 5be:0.948033 +
 distant 13 "TRO N" 5a0:0.572976 -
 distant 14 "EIT S" 5ae:0.995953 +
 distant 15 "EIT N" 5b8:0.903724 -
+distant 16 "SGD N" 58e:0.679843 -
+distant 17 "TRO S" 598:0.170407 +
