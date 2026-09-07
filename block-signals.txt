@@ -1,0 +1,10 @@
+# ebaner block signals (blokksignal). A main signal out on the line between two
+# stations, standing on a track-circuit border and worked by nobody: it clears
+# itself when a movement has been authorised its way and the block ahead is
+# empty, and goes back to danger behind every train.
+# block <id> "<name>" <trackHex>:<frac> <+|-> [left]
+# + governs movements toward increasing frac; the post stands right of that
+# unless it says left. The road it governs is not written here - it is the
+# signal path already authored from this border facing this way.
+block 1 "MAJ-SGD N" 586:0.425653 + left
+block 2 "MAJ-SGD S" 586:0.425653 -

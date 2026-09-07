@@ -20,3 +20,7 @@ distant 14 "EIT S" 5ae:0.995953 +
 distant 15 "EIT N" 5b8:0.903724 -
 distant 16 "SGD N" 58e:0.679843 -
 distant 17 "TRO S" 598:0.170407 +
+distant 18 "MAJ-SGD BLK S" 586:0.174815 +
+distant 19 "SGD-MAJ BLK N" 586:0.601212 -
+distant 20 "SGD S" 58e:0.28524 +
+distant 21 "MAJ N" 57c:0.138483 -
