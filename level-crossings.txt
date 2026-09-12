@@ -16,3 +16,5 @@ crossing 4 "ROG Noth" 6a6:0.957563 barriers
 crossing 5 "NO SEG W" 650:0.443992 also 3648:0.640015
 crossing 6 "DVT N" 5d8:0.457704 barriers
 crossing 7 "DVT S" 5d6:0.233581 barriers
+crossing 8 "Bjornstad" 570:0.212788 barriers
+crossing 9 "Namskogan N" 566:0.998036 barriers
