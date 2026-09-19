@@ -19,3 +19,4 @@ crossing 7 "DVT S" 5d6:0.233581 barriers
 crossing 8 "Bjornstad" 570:0.212788 barriers
 crossing 9 "Namskogan N" 566:0.998036 barriers
 crossing 10 "NSK S" 566:0.605778 barriers
+crossing 11 "LSM N" 55c:0.0499174 barriers
