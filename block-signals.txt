@@ -10,3 +10,5 @@ block 1 "MAJ-SGD N" 586:0.425653 + left
 block 2 "MAJ-SGD S" 586:0.425653 -
 block 3 "NSK-MAJ N" 570:0.658095 + left
 block 4 "NSK-MAJ S" 570:0.658095 -
+block 5 "LSM-NSK N" 55e:0.686821 + left
+block 6 "LSM-NSK S" 55e:0.686821 -
