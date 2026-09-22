@@ -28,3 +28,7 @@ distant 22 "NSK N" 56c:0.0807604 -
 distant 23 "NSK-MAJ" 570:0.482524 +
 distant 24 "MAJ-NSK" 570:0.864695 -
 distant 25 "MAJ S" 578:0.75362 +
+distant 26 "NSK-LSM" 55e:0.84592 -
+distant 27 "NSK S" 566:0.673638 +
+distant 28 "LSM-NSK" 55e:0.591729 +
+distant 29 "LSM N" 558:0.843139 -
