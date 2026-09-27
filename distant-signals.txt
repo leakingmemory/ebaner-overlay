@@ -32,3 +32,5 @@ distant 26 "NSK-LSM" 55e:0.84592 -
 distant 27 "NSK S" 566:0.673638 +
 distant 28 "LSM-NSK" 55e:0.591729 +
 distant 29 "LSM N" 558:0.843139 -
+distant 30 "HAR N" 554:0.397669 -
+distant 31 "LSM S" 558:0.504701 +
