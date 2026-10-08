@@ -17955,3 +17955,18 @@ move 371899.562 7150781.500 51.045 371895.378 7150782.890 51.045 21106
 move 371894.875 7150756.500 51.471 371891.740 7150757.524 51.471 21106
 move 371891.281 7150731.500 51.182 371889.195 7150732.182 51.182 21106
 move 371887.656 7150706.500 51.012 371886.620 7150706.841 51.012 21106
+
+# Grong: the Namsosbanen line existed twice. 716 carries it, and a chain of six
+# short fragments lay on top of it - every vertex within 3 m, most within 1 m -
+# from the merge of the Nordlandsbanen and Namsosbanen exports. Drop the chain
+# and let 716 be the one track. 73ca is kept: it leaves 716 and runs 3 m clear
+# over 25 m, which is a turnout lead to the yard, not a second copy.
+drop 3459
+drop 29636
+drop 29638
+drop 29639
+drop 29640
+drop 29641
+# ...and bring the loop's south end onto 716, which the dropped 73c9 used to
+# carry it to. 3.02 m off is outside the 2 m a turnout forms within.
+move 371866.938 7150635.500 48.475 371864.051 7150636.373 48.475 11398
