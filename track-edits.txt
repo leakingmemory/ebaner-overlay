@@ -17953,3 +17953,50 @@ drop 29641
 # The loop's south end needs nothing: with 716 back on its own alignment there,
 # 2c86's head stands 0.46 m from it and the turnout the dropped 73c9 used to
 # carry forms by itself.
+# Grong: the Namsos line's loop section takes its height from Nordlandsbanen.
+# From the loop's south splitout at y 7150636 northward, 716 IS the second
+# through road of the station, so the main beside it is the reference - not the
+# terrain, which is where its own heights came from. It was up to 0.58 m below
+# 538 at the south end while standing 4.6 m from it, a cross-fall no pair of
+# parallel tracks has.
+#
+# South of the splitout nothing is touched: that descent is the reference for
+# the yards outside it. Nordlandsbanen itself is not touched anywhere.
+elev 372022.344 7151089.500 52.091 1814 52.115
+elev 371999.315 7151042.233 52.039 1814 52.079
+elev 371976.486 7150995.470 52.010 1814 52.049
+elev 371958.202 7150946.654 52.006 1814 52.025
+elev 371941.845 7150897.105 52.030 1814 52.008
+elev 371925.563 7150847.623 52.083 1814 51.998
+elev 371909.309 7150798.616 52.165 1814 51.994
+elev 371893.033 7150749.135 52.278 1814 51.997
+elev 371882.050 7150697.755 52.425 1814 52.007
+elev 371871.156 7150646.500 52.604 1814 52.022
+# ...and the descent south of the splitout, lifted to meet it.
+#
+# Raising the loop section to Nordlandsbanen left a hard border: 716 came down
+# 0.56 m in the 48 m below the splitout and then went level again, a -10.8 per
+# mille V where there should be a curve. The shape of the descent is sound - its
+# own grades run +0.5 to +1.1 per mille the whole way - it simply started 0.69 m
+# too low to meet the main. So the whole of it is lifted by that much at the
+# splitout, tapering to nothing at the loose tail 624 m south, which keeps the
+# shape, keeps the tail where a later link would find it, and turns the border
+# into a vertical curve of about 26,000 m radius - the sharpest grade change
+# anywhere on it is now 2.0 per mille.
+#
+# Nordlandsbanen is still untouched, and deliberately. There was an offer to
+# bring it down a little here to help, but measured it needs no help: from the
+# north throat to the south it runs -1.2 to +9.9 per mille changing about half a
+# per mille per vertex, which is a clean vertical curve already. Lowering it
+# around the splitout would put a kink into the one profile that has none.
+elev 371854.750 7150597.500 52.677 1814 52.044
+elev 371838.531 7150548.000 52.647 1814 52.072
+elev 371822.281 7150498.500 52.623 1814 52.105
+elev 371803.625 7150450.000 52.603 1814 52.143
+elev 371783.594 7150402.000 52.588 1814 52.185
+elev 371765.781 7150353.000 52.576 1814 52.231
+elev 371747.969 7150304.500 52.569 1814 52.281
+elev 371729.594 7150255.500 52.563 1814 52.333
+elev 371706.312 7150209.000 52.559 1814 52.387
+elev 371676.312 7150167.000 52.557 1814 52.442
+elev 371640.469 7150129.000 52.556 1814 52.499
