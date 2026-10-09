@@ -63,3 +63,7 @@ route 57 "HAR NB T2" 73c3:0.914625 2cbf:0.833662 signal 47 type C2 73c3:0.914625
 # position Harran was in until now.
 route 58 "GRG NB T1" 538:0.906220 538:0.991170 signal 48 type C1 538:0.906220:0.991170
 route 59 "GRG NB T2" 2c85:0.698578 2c86:0.923173 signal 49 type C2 2c85:0.698578:1 716:0.587655:0.440348 2c86:0:0.923173
+
+# Harran southbound, which only becomes possible now that Grong is signalled.
+route 60 "HAR SB T1" 554:0.237542 554:0.215520 signal 50 type C1 554:0.237542:0.215520
+route 61 "HAR SB T2" 2cbf:0.833662 73c3:0.914625 signal 51 type C2 2cbf:0.833662:0 73c3:1:0.914625
