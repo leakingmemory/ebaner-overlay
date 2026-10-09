@@ -52,3 +52,11 @@ switch 3641 461087.281 7354914.500 motor
 switch 73c3 379834.562 7162671.500 motor lock 114
 switch 2cbf 380148.938 7162958.500 motor lock 117
 noswitch 379886.906 7162711.000 3 2cbf
+
+# Grong. Four rather than the usual two, because the loop is made of three tracks:
+# the two switch groups onto the main, and the two where 2c85 and 2c86 meet the
+# Namsosline in between. Everything else at Grong stays manual.
+switch 2c85 371785.156 7150372.500 motor lock 121
+switch 2c85 371816.625 7150482.500 motor lock 124
+switch 2c86 371867.419 7150635.339 motor lock 124
+switch 2c86 372018.438 7151078.500 motor lock 122

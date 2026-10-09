@@ -34,3 +34,6 @@ distant 28 "LSM-NSK" 55e:0.591729 +
 distant 29 "LSM N" 558:0.843139 -
 distant 30 "HAR N" 554:0.397669 -
 distant 31 "LSM S" 558:0.504701 +
+
+# 1056 m ahead of the Grong entry signal, the spacing Harran uses.
+distant 32 "GRG N" 539:0.502713 -

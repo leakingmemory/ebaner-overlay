@@ -58,3 +58,8 @@ route 54 "LSM SB T1" 558:0.70548 558:0.650325 signal 44 type C1 558:0.70548:0.65
 route 55 "LSM SB T2" 73c2:0.296818 2cc1:0.086038 signal 45 type C2 73c2:0.296818:0 2cc1:1:0.086038
 route 56 "HAR NB T1" 554:0.215520 554:0.237542 signal 46 type C1 554:0.215520:0.237542
 route 57 "HAR NB T2" 73c3:0.914625 2cbf:0.833662 signal 47 type C2 73c3:0.914625:1 2cbf:0:0.833662
+
+# Grong, northbound only: nothing south of here is signalled yet, which is the
+# position Harran was in until now.
+route 58 "GRG NB T1" 538:0.906220 538:0.991170 signal 48 type C1 538:0.906220:0.991170
+route 59 "GRG NB T2" 2c85:0.698578 2c86:0.923173 signal 49 type C2 2c85:0.698578:1 716:0.587655:0.440348 2c86:0:0.923173

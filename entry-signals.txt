@@ -60,3 +60,8 @@ entry 55 "LSM INFS T1" 558:0.600857 558:0.70548 type C1 distant 558:0.600857:0.7
 entry 56 "LSM INFS T2" 558:0.600857 73c2:0.296818 type C2 distant 558:0.600857:0.645327 2cc1:0:1 73c2:0:0.296818
 entry 57 "HAR INFN T1" 554:0.321595 554:0.215520 type C1 554:0.321595:0.215520
 entry 58 "HAR INFN T2" 554:0.321595 73c3:0.914625 type C2 554:0.321595:0.241864 2cbf:1:0 73c3:1:0.914625
+
+# No `distant` on either: the next signal a train entering Grong would meet is the
+# southbound exit signal, and there is none yet. Harran reads the same way.
+entry 59 "GRG INFN T1" 539:0.0885491 538:0.906220 type C1 539:0.0885491:0 538:1:0.906220
+entry 60 "GRG INFN T2" 539:0.0885491 2c85:0.698578 type C2 539:0.0885491:0 538:1:0.995802 2c86:1:0 716:0.440348:0.587655 2c85:1:0.698578
