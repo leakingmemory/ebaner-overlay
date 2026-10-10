@@ -36,9 +36,7 @@ distant 30 "HAR N" 554:0.397669 -
 distant 31 "LSM S" 558:0.504701 +
 distant 33 "HAR S" 554:0.067674 +
 distant 34 "GRG N" 546:0.0789746 - left
-
-# 1100 m out on each approach - the spacing the Majavatn-Sanddola block pair uses.
 distant 34 "AGL N" 508:0.985072 -
-distant 35 "GRG S" 538:0.699582 +
-distant 36 "AGL-GRG BLK" 524:0.256417 +
-distant 37 "GRG-AGL BLK" 528:0.947915 -
+distant 38 "AGL-GRG" 524:0.850802 + left
+distant 39 "GRG-AGL" 528:0.788783 -
+distant 40 "GRG S" 538:0.728141 +
