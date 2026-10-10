@@ -63,10 +63,20 @@ entry 58 "HAR INFN T2" 554:0.321595 73c3:0.914625 type C2 distant 554:0.321595:0
 
 # No `distant` on either: the next signal a train entering Grong would meet is the
 # southbound exit signal, and there is none yet. Harran reads the same way.
-entry 59 "GRG INFN T1" 539:0.0885491 538:0.906220 type C1 539:0.0885491:0 538:1:0.906220
-entry 60 "GRG INFN T2" 539:0.0885491 2c85:0.698578 type C2 539:0.0885491:0 538:1:0.995802 2c86:1:0 716:0.440348:0.587655 2c85:1:0.698578
+entry 59 "GRG INFN T1" 539:0.0885491 538:0.906220 type C1 distant 539:0.0885491:0 538:1:0.906220
+entry 60 "GRG INFN T2" 539:0.0885491 2c85:0.698578 type C2 distant 539:0.0885491:0 538:1:0.995802 2c86:1:0 716:0.440348:0.587655 2c85:1:0.698578
 
 # Harran from the south. These carry a distant because the next signal such a train
 # meets is the northbound exit, which has been there all along.
 entry 61 "HAR INFS T1" 554:0.143748 554:0.237542 type C1 distant 554:0.143748:0.237542
 entry 62 "HAR INFS T2" 554:0.143748 2cbf:0.833662 type C2 distant 554:0.143748:0.211198 73c3:0:1 2cbf:0:0.833662
+
+# Agle from the north. No distant on these: the next signal such a train meets is
+# the southbound exit, and nothing south of Agle is signalled yet - the position
+# Harran and then Grong were each in before the next station down the line arrived.
+entry 63 "AGL INFN T1" 508:0.816463 508:0.644098 type C1 508:0.816463:0.644098
+entry 64 "AGL INFN T2" 508:0.816463 2cbe:0.067071 type C2 508:0.816463:0.772114 2cbe:1:0.067071
+# Grong from the south, which Agle now makes possible. These do carry a distant:
+# the northbound exit beyond them has been there since Grong was signalled.
+entry 65 "GRG INFS T1" 538:0.847737 538:0.99117 type C1 distant 538:0.847737:0.99117
+entry 66 "GRG INFS T2" 538:0.847737 2c86:0.923173 type C2 distant 538:0.847737:0.895657 2c85:0:1 716:0.587655:0.440348 2c86:0:0.923173

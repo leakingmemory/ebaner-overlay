@@ -12,3 +12,7 @@ block 3 "NSK-MAJ N" 570:0.658095 + left
 block 4 "NSK-MAJ S" 570:0.658095 -
 block 5 "LSM-NSK N" 55e:0.686821 + left
 block 6 "LSM-NSK S" 55e:0.686821 -
+
+# Halfway between Agle and Grong, the pair back to back on the one border.
+block 7 "AGL-GRG N" 526:0.657422 + left
+block 8 "AGL-GRG S" 526:0.657422 -

@@ -67,3 +67,9 @@ route 59 "GRG NB T2" 2c85:0.698578 2c86:0.923173 signal 49 type C2 2c85:0.698578
 # Harran southbound, which only becomes possible now that Grong is signalled.
 route 60 "HAR SB T1" 554:0.237542 554:0.215520 signal 50 type C1 554:0.237542:0.215520
 route 61 "HAR SB T2" 2cbf:0.833662 73c3:0.914625 signal 51 type C2 2cbf:0.833662:0 73c3:1:0.914625
+
+# Agle northbound, and the southbound half of Grong that Agle now makes possible.
+route 62 "AGL NB T1" 508:0.644098 508:0.762917 signal 52 type C1 508:0.644098:0.762917
+route 63 "AGL NB T2" 2cbe:0.067071 2cbe:0.932929 signal 53 type C2 2cbe:0.067071:0.932929
+route 64 "GRG SB T1" 538:0.99117 538:0.90622 signal 54 type C1 538:0.99117:0.90622
+route 65 "GRG SB T2" 2c86:0.923173 2c85:0.698578 signal 55 type C2 2c86:0.923173:0 716:0.440348:0.587655 2c85:1:0.698578
