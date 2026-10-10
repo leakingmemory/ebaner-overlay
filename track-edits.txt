@@ -19120,33 +19120,11 @@ elev 379708.906 7141541.500 192.701 1300 191.501
 elev 379753.062 7141515.500 192.712 1300 191.812
 elev 379794.875 7141486.000 192.716 1300 192.116
 elev 379833.938 7141453.000 192.712 1300 192.412
-
-# Formofoss - Agle: five gaps where the export simply has no geometry. Each is a
-# straight connector between two ends that already face each other; the medium of
-# each is what the ground between them says it has to be, not what the ends imply.
-#
-# The bridge and the 518-514 tunnel are the two that matter: a connector with no
-# medium takes tunnel if either end is underground and surface otherwise, which
-# gets both of them wrong. The first would bore a tube across a gorge because the
-# track runs out of a tunnel mouth into it; the fourth would trench 111 m down
-# through a mountain because both of its ends happen to be in daylight.
-#
-# Ground sampled every 5 m across each gap, against a straight rail between the
-# ends: air beneath means a bridge, rock above means a tunnel.
 link 376103.656 7142446.500 151.225 376202.844 7142418.000 152.004 bridge
 link 378831.812 7142259.000 184.391 378942.156 7142207.500 185.600 tunnel
 link 379188.469 7141847.500 189.203 379269.469 7141775.000 190.026 tunnel
 link 379596.969 7141595.000 192.713 379708.906 7141541.500 192.701 tunnel
 link 381740.812 7133396.500 165.874 381754.000 7133334.000 165.506 surface
-
-# Agle: the 895 m passing loop 2cbe regraded onto the main line 508, which has
-# been lowered about 14 m by hand and left the loop stranded 1.1 to 7.3 m above
-# it. The loop still carried its export heights - one DTM sample per vertex, so
-# gradients between -67 and +62 permille, which is not a railway.
-#
-# Each vertex takes 508's height at its own nearest point on it, so the two ends
-# - 0.14 m and 0.12 m off the main, where the turnouts are - come out at exactly
-# the main's own height there and the turnouts join level.
 elev 380354.531 7130759.500 153.257 11454 160.600
 elev 380375.156 7130774.500 153.386 11454 160.600
 elev 380396.188 7130789.000 153.508 11454 160.600
@@ -19183,3 +19161,5 @@ elev 380995.656 7131265.000 155.577 11454 160.289
 elev 381017.906 7131277.500 155.627 11454 160.425
 elev 381039.094 7131292.000 155.678 11454 160.811
 elev 381061.281 7131304.500 155.729 11454 160.926
+track d0000007 siding 372043.371 7144063.631 104.848 372035.612 7144077.412 104.848 372024.775 7144104.324 104.848 371999.654 7144153.116 104.848 371967.225 7144205.895 104.848
+track d0000008 siding 372022.156 7144109.410 104.848 372016.974 7144123.394 104.848 372008.790 7144150.973 104.848 371973.621 7144212.092 104.848 371932.653 7144283.639 104.848 371899.320 7144340.487 104.848 371863.454 7144385.329 104.848 371832.695 7144430.728 104.848 371817.606 7144449.951 104.848 371809.940 7144456.642 104.848 371794.310 7144480.518 104.375
