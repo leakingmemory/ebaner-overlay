@@ -19120,3 +19120,21 @@ elev 379708.906 7141541.500 192.701 1300 191.501
 elev 379753.062 7141515.500 192.712 1300 191.812
 elev 379794.875 7141486.000 192.716 1300 192.116
 elev 379833.938 7141453.000 192.712 1300 192.412
+
+# Formofoss - Agle: five gaps where the export simply has no geometry. Each is a
+# straight connector between two ends that already face each other; the medium of
+# each is what the ground between them says it has to be, not what the ends imply.
+#
+# The bridge and the 518-514 tunnel are the two that matter: a connector with no
+# medium takes tunnel if either end is underground and surface otherwise, which
+# gets both of them wrong. The first would bore a tube across a gorge because the
+# track runs out of a tunnel mouth into it; the fourth would trench 111 m down
+# through a mountain because both of its ends happen to be in daylight.
+#
+# Ground sampled every 5 m across each gap, against a straight rail between the
+# ends: air beneath means a bridge, rock above means a tunnel.
+link 376103.656 7142446.500 151.225 376202.844 7142418.000 152.004 bridge
+link 378831.812 7142259.000 184.391 378942.156 7142207.500 185.600 tunnel
+link 379188.469 7141847.500 189.203 379269.469 7141775.000 190.026 tunnel
+link 379596.969 7141595.000 192.713 379708.906 7141541.500 192.701 tunnel
+link 381740.812 7133396.500 165.874 381754.000 7133334.000 165.506 surface
