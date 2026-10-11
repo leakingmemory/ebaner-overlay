@@ -42,3 +42,5 @@ distant 39 "GRG-AGL" 528:0.788783 -
 distant 40 "GRG S" 538:0.728141 +
 distant 43 "SNÅ N" 506:0.0837509 - left
 distant 44 "AGL S" 508:0.428811 +
+distant 45 "SGM N" 500:0.112754 -
+distant 46 "SNÅ S" 502:0.964496 +
