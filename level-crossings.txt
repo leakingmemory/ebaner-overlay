@@ -24,3 +24,6 @@ crossing 12 "GRG-HAR" 54c:0.656055 barriers
 crossing 13 "FORMOFOSS" 538:0.0231945 also d0000008:0.273786 barriers
 crossing 14 "Snsa" 504:0.798627 barriers
 crossing 15 "AGL S" 508:0.436481 barriers
+crossing 16 "Jrstad N" 500:0.42157 barriers
+crossing 17 "Jstad-Snsa" 500:0.760317 barriers
+crossing 18 "Jrstad-Snsa 2" 502:0.726533 barriers
