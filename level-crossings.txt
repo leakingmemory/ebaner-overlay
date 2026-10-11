@@ -23,3 +23,4 @@ crossing 11 "LSM N" 55c:0.0499174 barriers
 crossing 12 "GRG-HAR" 54c:0.656055 barriers
 crossing 13 "FORMOFOSS" 538:0.0231945 also d0000008:0.273786 barriers
 crossing 14 "Snsa" 504:0.798627 barriers
+crossing 15 "AGL S" 508:0.436481 barriers
