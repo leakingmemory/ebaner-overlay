@@ -66,8 +66,12 @@ switch 2cbe 380354.531 7130759.500 motor lock 128
 switch 2cbe 381061.281 7131304.500 motor lock 131
 
 # Snasa: the three turnouts every T2 route has to throw - 2c84's off the main, the
-# node's onto 73db rather than the yard stub, and 73db's back onto the main. The west
+# node's between 73db and the yard stub, and 73db's back onto the main. The west
 # loop and the yard stay manual; T1 and T2 routes only need them lying straight.
+# At the node 2c84 runs straight on into 73db, so the switch there is the yard
+# stub's branch 2cb3, lying straight for T2; the detector also reads 73db's end as
+# a second branch that leads into the stub, which is not a switch at all.
 switch 2c84 372869.250 7126888.000 motor lock 136
-switch 73db 373019.000 7127051.000 motor lock 138
+switch 2cb3 373019.000 7127051.000 motor lock 138
+noswitch 373019.000 7127051.000 3 73db
 switch 73db 373125.344 7127182.000 motor lock 139
