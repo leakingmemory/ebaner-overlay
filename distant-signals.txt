@@ -40,3 +40,7 @@ distant 34 "AGL N" 508:0.985072 -
 distant 38 "AGL-GRG" 524:0.850802 + left
 distant 39 "GRG-AGL" 528:0.788783 -
 distant 40 "GRG S" 538:0.728141 +
+
+# 1100 m out, as for the stations above.
+distant 41 "SNÅ N" 506:0.134716 -
+distant 42 "AGL S" 508:0.413511 +

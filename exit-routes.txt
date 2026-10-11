@@ -73,3 +73,10 @@ route 62 "AGL NB T1" 508:0.644098 508:0.762917 signal 52 type C1 508:0.644098:0.
 route 63 "AGL NB T2" 2cbe:0.067071 2cbe:0.932929 signal 53 type C2 2cbe:0.067071:0.932929
 route 64 "GRG SB T1" 538:0.99117 538:0.90622 signal 54 type C1 538:0.99117:0.90622
 route 65 "GRG SB T2" 2c86:0.923173 2c85:0.698578 signal 55 type C2 2c86:0.923173:0 716:0.440348:0.587655 2c85:1:0.698578
+
+# Snasa northbound - nothing south of it is signalled yet - and the southbound half of
+# Agle that Snasa makes possible.
+route 66 "SNÅ NB T1" 504:0.579877 504:0.730622 signal 56 type C1 504:0.579877:0.730622
+route 67 "SNÅ NB T2" 2c84:0.270854 73db:0.644833 signal 57 type C2 2c84:0.270854:1 73db:0:0.644833
+route 68 "AGL SB T1" 508:0.762917 508:0.644098 signal 58 type C1 508:0.762917:0.644098
+route 69 "AGL SB T2" 2cbe:0.932929 2cbe:0.067071 signal 59 type C2 2cbe:0.932929:0.067071

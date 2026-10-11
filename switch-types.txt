@@ -64,3 +64,10 @@ switch 2c86 372018.438 7151078.500 motor lock 122
 # Agle: the two ends of the loop, which every T2 route has to throw.
 switch 2cbe 380354.531 7130759.500 motor lock 128
 switch 2cbe 381061.281 7131304.500 motor lock 131
+
+# Snasa: the three turnouts every T2 route has to throw - 2c84's off the main, the
+# node's onto 73db rather than the yard stub, and 73db's back onto the main. The west
+# loop and the yard stay manual; T1 and T2 routes only need them lying straight.
+switch 2c84 372869.250 7126888.000 motor lock 136
+switch 73db 373019.000 7127051.000 motor lock 138
+switch 73db 373125.344 7127182.000 motor lock 139

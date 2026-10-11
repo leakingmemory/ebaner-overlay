@@ -74,9 +74,18 @@ entry 62 "HAR INFS T2" 554:0.143748 2cbf:0.833662 type C2 distant 554:0.143748:0
 # Agle from the north. No distant on these: the next signal such a train meets is
 # the southbound exit, and nothing south of Agle is signalled yet - the position
 # Harran and then Grong were each in before the next station down the line arrived.
-entry 63 "AGL INFN T1" 508:0.816463 508:0.644098 type C1 508:0.816463:0.644098
-entry 64 "AGL INFN T2" 508:0.816463 2cbe:0.067071 type C2 508:0.816463:0.772114 2cbe:1:0.067071
+entry 63 "AGL INFN T1" 508:0.816463 508:0.644098 type C1 distant 508:0.816463:0.644098
+entry 64 "AGL INFN T2" 508:0.816463 2cbe:0.067071 type C2 distant 508:0.816463:0.772114 2cbe:1:0.067071
 # Grong from the south, which Agle now makes possible. These do carry a distant:
 # the northbound exit beyond them has been there since Grong was signalled.
 entry 65 "GRG INFS T1" 538:0.847737 538:0.99117 type C1 distant 538:0.847737:0.99117
 entry 66 "GRG INFS T2" 538:0.847737 2c86:0.923173 type C2 distant 538:0.847737:0.895657 2c85:0:1 716:0.587655:0.440348 2c86:0:0.923173
+
+# Snasa from the north. `crossing`: crossing 14 lies 216 m inside, between this mast
+# and the station. No `distant` - the next signal a train in meets is the southbound
+# exit, and nothing south of Snasa is signalled yet.
+entry 67 "SNÅ INFN T1" 504:0.919456 504:0.579877 type C1 crossing 504:0.919456:0.579877
+entry 68 "SNÅ INFN T2" 504:0.919456 2c84:0.270854 type C2 crossing 504:0.919456:0.764134 73db:1:0 2c84:1:0.270854
+# Agle from the south, with a distant: the northbound exit beyond is there.
+entry 69 "AGL INFS T1" 508:0.58212 508:0.762917 type C1 distant 508:0.58212:0.762917
+entry 70 "AGL INFS T2" 508:0.58212 2cbe:0.932929 type C2 distant 508:0.58212:0.634901 2cbe:0:0.932929
