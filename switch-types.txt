@@ -1,17 +1,31 @@
 # ebaner switch types (manual is default; only motor switches are listed).
 # switch   <trackIdHex> <x> <y> motor [lock <sectionId> ...]
 # noswitch <x> <y> <radius> [<trackIdHex>] [all]  - not really a switch
+switch 2cb0 363321.625 7120398.000 motor lock 143
+switch 2cb0 363627.438 7121136.000 motor lock 146
+switch 2cbe 380354.531 7130759.500 motor lock 128
+switch 2cbe 381061.281 7131304.500 motor lock 131
 switch 363e 461052.219 7355133.000 motor lock 24
 switch 363e 461044.812 7355216.000 motor lock 22
+switch 3641 461087.281 7354914.500 motor lock 31
 switch 3647 461087.281 7354914.500 motor lock 21
 switch 73a5 461061.281 7355467.500 motor lock 25
+switch 2cc4 412020.938 7201768.000 motor lock 99
+switch 2cc4 412756.656 7201426.500 motor lock 100
 switch 3635 447233.750 7336936.500 motor lock 35
+switch 2cbf 380148.938 7162958.500 motor lock 117
+switch 73c3 379834.562 7162671.500 motor lock 114
 switch 2cc5 425310.188 7269202.000 motor lock 75
 switch 32d0 425240.656 7269577.500 motor lock 73
 switch 73bd 425321.875 7269088.000 motor lock 76
 switch 73bd 425310.188 7269202.000 motor lock 75
 switch 3658 419364.875 7287124.500 motor lock 66
 switch 3658 419181.812 7288162.500 motor lock 69
+switch 2c84 372869.250 7126888.000 motor lock 136
+switch 2cb3 373019.000 7127051.000 motor lock 138
+switch 73db 373125.344 7127182.000 motor lock 139
+switch 2c97 425524.875 7257661.500 motor lock 88
+switch 2c97 425564.312 7258459.500 motor lock 91
 switch d64 460690.969 7354153.500 motor lock 16
 switch 54ca 430007.250 7328626.500 motor lock 40
 switch 54ca 430537.688 7329315.000 motor lock 44
@@ -20,11 +34,17 @@ switch 73a3 461156.312 7354484.500 motor lock 19
 switch 303b 474182.562 7463597.000 motor lock 3 10
 switch 303d 474218.531 7463616.000 motor lock 10
 switch 3040 474261.156 7463629.000 motor lock 10
+switch 2c85 371785.156 7150372.500 motor lock 121
+switch 2c85 371816.625 7150482.500 motor lock 124
+switch 2c86 371867.419 7150635.339 motor lock 124
+switch 2c86 372018.438 7151078.500 motor lock 122
 switch 244b 417809.812 7303753.000 motor lock 59
 switch 24af 417859.594 7303658.500 motor lock 50
 switch 24b4 417685.562 7304053.500 motor lock 57
 switch 24b9 417652.938 7304414.500 motor lock 60 62
 switch 73b8 417663.531 7304466.000 motor lock 62
+switch 2cc1 390916.094 7176523.500 motor lock 106
+switch 73c2 391639.094 7176822.000 motor lock 109
 switch de8 423486.156 7227622.500 motor lock 83
 switch de8 423550.906 7228457.500 motor lock 84
 switch 73b2 417880.375 7303618.000 motor lock 49
@@ -39,39 +59,8 @@ switch e0000090 474340.617 7463667.138 motor lock 10
 switch e0000090 474315.414 7463655.057 motor lock 10
 switch e0000091 474301.611 7463645.807 motor lock 10
 switch e0000091 474276.385 7463633.773 motor lock 10
-switch 2c97 425524.875 7257661.500 motor lock 88
-switch 2c97 425564.312 7258459.500 motor lock 91
 noswitch 461156.312 7354484.500 3.000 3643
 noswitch 417880.375 7303618.000 3.000 5c6
 noswitch 417652.938 7304414.500 3.000 24af
-switch 2cc4 412020.938 7201768.000 motor lock 99
-switch 2cc4 412756.656 7201426.500 motor lock 100
-switch 2cc1 390916.094 7176523.500 motor lock 106
-switch 73c2 391639.094 7176822.000 motor lock 109
-switch 3641 461087.281 7354914.500 motor
-switch 73c3 379834.562 7162671.500 motor lock 114
-switch 2cbf 380148.938 7162958.500 motor lock 117
-noswitch 379886.906 7162711.000 3 2cbf
-
-# Grong. Four rather than the usual two, because the loop is made of three tracks:
-# the two switch groups onto the main, and the two where 2c85 and 2c86 meet the
-# Namsosline in between. Everything else at Grong stays manual.
-switch 2c85 371785.156 7150372.500 motor lock 121
-switch 2c85 371816.625 7150482.500 motor lock 124
-switch 2c86 371867.419 7150635.339 motor lock 124
-switch 2c86 372018.438 7151078.500 motor lock 122
-
-# Agle: the two ends of the loop, which every T2 route has to throw.
-switch 2cbe 380354.531 7130759.500 motor lock 128
-switch 2cbe 381061.281 7131304.500 motor lock 131
-
-# Snasa: the three turnouts every T2 route has to throw - 2c84's off the main, the
-# node's between 73db and the yard stub, and 73db's back onto the main. The west
-# loop and the yard stay manual; T1 and T2 routes only need them lying straight.
-# At the node 2c84 runs straight on into 73db, so the switch there is the yard
-# stub's branch 2cb3, lying straight for T2; the detector also reads 73db's end as
-# a second branch that leads into the stub, which is not a switch at all.
-switch 2c84 372869.250 7126888.000 motor lock 136
-switch 2cb3 373019.000 7127051.000 motor lock 138
-noswitch 373019.000 7127051.000 3 73db
-switch 73db 373125.344 7127182.000 motor lock 139
+noswitch 379886.906 7162711.000 3.000 2cbf
+noswitch 373019.000 7127051.000 3.000 73db
