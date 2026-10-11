@@ -177,6 +177,21 @@ border 2cbe 0.067071 0 0
 border 2cbe 0.932929 0 0
 border 504 0.345422 0 0
 border 504 0.919456 0 0
+border 504 0.524024 0 0
+border 504 0.579877 0 0
+border 504 0.730622 0 0
+border 504 0.786475 0 0
+border 2c84 0.270854 0 0
+border 73db 0.644833 0 0
+border 2cb3 0.2475 0 0
+border 500 0.00267536 0 0
+border 4fe 0.159124 0 0
+border 4fe 0.295932 0 0
+border 4fe 0.358103 0 0
+border 4fe 0.792348 0 0
+border 4fe 0.854518 0 0
+border 2cb0 0.0729965 0 0
+border 2cb0 0.927004 0 0
 section 1 "NOBODT1" 709:0.849372:0.999678
 section 2 "NOBODT2" 303b:0.16644:0.852706
 section 3 "NOBODT2J1" 303b:0.852706:1 709:0.822124:0.849372
@@ -295,24 +310,17 @@ section 131 "AGL N SW" 508:0.762917:0.778245 2cbe:0.932929:1
 section 132 "AGL N" 508:0.778245:0.816463
 section 133 "AGL-GRG S" 508:0.816463:1 509:0:1 50a:0:1 f0004ab6:1:0 50e:0:1 50f:0:1 510:0:1 511:0:1 512:0:1 513:0:1 514:0:1 f0004ab5:1:0 518:0:1 519:0:1 f0004ab4:1:0 51c:0:1 51d:0:1 51e:0:1 51f:0:1 520:0:1 f0004ab3:1:0 523:0:1 524:0:1 525:0:1 526:0:0.657422
 section 134 "AGL-GRG N" 526:0.657422:1 527:0:1 528:0:1 529:0:1 f0004ab2:1:0 52c:0:1 52d:0:1 52e:0:1 52f:0:1 530:0:1 531:0:1 532:0:1 533:0:1 534:0:1 535:0:1 536:0:1 537:0:1 538:0:0.847737
-
-# Snasa. T1 is the main 504; T2 the east loop, 2c84 and 73db through the node they
-# share at (373019,7127051). The joints sit 60 m inside and 40 m outside the east
-# loop's turnouts, which puts the manual west loop 2c83's turnouts inside the switch
-# groups and makes T1 and T2 270 m each. 2cb3 belongs to T2 for the 48.4 m in which
-# it fouls 73db; beyond that the yard is not signalled.
-border 504 0.524024 0 0
-border 504 0.579877 0 0
-border 504 0.730622 0 0
-border 504 0.786475 0 0
-border 2c84 0.270854 0 0
-border 73db 0.644833 0 0
-border 2cb3 0.2475 0 0
 section 135 "SNÅ S" 504:0.345422:0.524024
 section 136 "SNÅ S SW" 504:0.524024:0.579877 2c84:0:0.270854
 section 137 "SNÅ T1" 504:0.579877:0.730622
 section 138 "SNÅ T2" 2c84:0.270854:1 73db:0:0.644833 2cb3:0:0.2475
 section 139 "SNÅ N SW" 504:0.730622:0.786475 73db:0.644833:1
 section 140 "SNÅ N" 504:0.786475:0.919456
-# Snasa to Agle, 8.07 km: one section, and no block signal between them.
 section 141 "SNÅ-AGL" 504:0.919456:1 505:0:1 506:0:1 507:0:1 508:0:0.58212
+section 142 "SGM S" 4fe:0.159124:0.295932
+section 143 "SGM S SW" 4fe:0.295932:0.358103 2cb0:0:0.0729965
+section 144 "SGM T1" 4fe:0.358103:0.792348
+section 145 "SGM T2" 2cb0:0.0729965:0.927004
+section 146 "SGM N SW" 4fe:0.792348:0.854518 2cb0:0.927004:1
+section 147 "SGM N" 4fe:0.854518:1 4ff:0:1 500:0:0.00267536
+section 148 "SGM-SNÅ" 500:0.00267536:1 501:0:1 502:0:1 503:0:1 504:0:0.345422
