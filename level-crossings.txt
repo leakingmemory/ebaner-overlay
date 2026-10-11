@@ -27,3 +27,4 @@ crossing 15 "AGL S" 508:0.436481 barriers
 crossing 16 "Jrstad N" 500:0.42157 barriers
 crossing 17 "Jstad-Snsa" 500:0.760317 barriers
 crossing 18 "Jrstad-Snsa 2" 502:0.726533 barriers
+crossing 19 "Jrstad S" 500:0.315466 barriers
