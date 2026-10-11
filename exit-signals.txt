@@ -75,8 +75,8 @@ exit 55 "GRG SB T2" 2c85:0.698578 526:0.657422 twolamp left 2c85:0.698578:0 538:
 # `crossing`: cleared as usual, but shown green only once the crossing shows white.
 # Both stand in the 5.5 m between T1 and T2 - west of T1 the unsignalled loop is
 # 4.1 m off and east of T2 the yard stub 4.5 m, and a mast there would foul either.
-exit 56 "SNÅ NB T1" 504:0.730622 508:0.58212 crossing 504:0.730622:1 505:0:1 506:0:1 507:0:1 508:0:0.58212
-exit 57 "SNÅ NB T2" 73db:0.644833 508:0.58212 twolamp crossing left 73db:0.644833:1 504:0.764134:1 505:0:1 506:0:1 507:0:1 508:0:0.58212
+exit 56 "SNÅ NB T1" 504:0.730622 508:0.58212 crossing left 504:0.730622:1 505:0:1 506:0:1 507:0:1 508:0:0.58212
+exit 57 "SNÅ NB T2" 73db:0.644833 508:0.58212 twolamp crossing 73db:0.644833:1 504:0.764134:1 505:0:1 506:0:1 507:0:1 508:0:0.58212
 # Agle southbound. The loop lies east of the main, so read southbound T1's mast
 # stands right and T2's left, both on the outside, as at Majavatn and Sanddola.
 exit 58 "AGL SB T1" 508:0.644098 504:0.919456 508:0.644098:0 507:1:0 506:1:0 505:1:0 504:1:0.919456
