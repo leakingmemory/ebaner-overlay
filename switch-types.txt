@@ -1,15 +1,6 @@
 # ebaner switch types (manual is default; only motor switches are listed).
 # switch   <trackIdHex> <x> <y> motor [lock <sectionId> ...]
 # noswitch <x> <y> <radius> [<trackIdHex>] [all]  - not really a switch
-switch 687f 328586.969 7103287.500 motor lock 156
-switch 2cb2 328614.312 7103225.000 motor lock 157
-switch 687e 328614.312 7103225.000 motor lock 157
-switch 687f 328614.312 7103225.000 motor lock 157
-switch 73dc 328614.312 7103225.000 motor lock 157
-switch 2cb7 328627.156 7103196.000 motor lock 157
-switch 73dd 328627.156 7103196.000 motor lock 157
-switch 2cb1 340774.031 7114443.000 motor lock 150
-switch 2cb1 341561.375 7114641.000 motor lock 153
 switch 2cb0 363321.625 7120398.000 motor lock 143
 switch 2cb0 363627.438 7121136.000 motor lock 146
 switch 2cbe 380354.531 7130759.500 motor lock 128
@@ -40,6 +31,14 @@ switch 54ca 430007.250 7328626.500 motor lock 40
 switch 54ca 430537.688 7329315.000 motor lock 44
 switch 3637 447572.810 7337734.590 motor lock 38
 switch 73a3 461156.312 7354484.500 motor lock 19
+switch 2cb2 328614.312 7103225.000 motor lock 157
+switch 2cb7 328627.156 7103196.000 motor lock 157
+switch 687e 328614.312 7103225.000 motor lock 157
+switch 687f 328614.312 7103225.000 motor lock 157
+switch 687f 328586.969 7103287.500 motor lock 156
+switch 73dc 328614.312 7103225.000 motor lock 157
+switch 73dd 328627.156 7103196.000 motor lock 157
+switch 73df 328919.531 7102595.000 motor lock 159
 switch 303b 474182.562 7463597.000 motor lock 3 10
 switch 303d 474218.531 7463616.000 motor lock 10
 switch 3040 474261.156 7463629.000 motor lock 10
@@ -47,6 +46,8 @@ switch 2c85 371785.156 7150372.500 motor lock 121
 switch 2c85 371816.625 7150482.500 motor lock 124
 switch 2c86 371867.419 7150635.339 motor lock 124
 switch 2c86 372018.438 7151078.500 motor lock 122
+switch 2cb1 340774.031 7114443.000 motor lock 150
+switch 2cb1 341561.375 7114641.000 motor lock 153
 switch 244b 417809.812 7303753.000 motor lock 59
 switch 24af 417859.594 7303658.500 motor lock 50
 switch 24b4 417685.562 7304053.500 motor lock 57
@@ -60,6 +61,7 @@ switch 73b2 417880.375 7303618.000 motor lock 49
 switch 3648 470609.281 7360347.000 motor lock 12
 switch 3648 471247.938 7360846.500 motor lock 15
 switch d0000000 462501.703 7356308.749 motor lock 29
+switch d000000d 328891.222 7102740.408 motor lock 158
 switch e000006e 474314.670 7463656.614 motor lock 10
 switch e000006e 474339.861 7463668.706 motor lock 10
 switch e000006f 474275.661 7463635.289 motor lock 10
