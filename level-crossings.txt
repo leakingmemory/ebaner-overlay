@@ -28,3 +28,6 @@ crossing 16 "Jrstad N" 500:0.42157 barriers
 crossing 17 "Jstad-Snsa" 500:0.760317 barriers
 crossing 18 "Jrstad-Snsa 2" 502:0.726533 barriers
 crossing 19 "Jrstad S" 500:0.315466 barriers
+crossing 20 "Byafossen" 4ee:0.388713 barriers
+crossing 21 "Byafossen N" 4ee:0.542578
+crossing 22 "Sunnan" 4ee:0.942754 barriers
