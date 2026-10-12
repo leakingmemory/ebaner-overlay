@@ -85,3 +85,10 @@ exit 60 "SNÅ SB T1" 504:0.579877 500:0.00267536 504:0.579877:0 503:1:0 502:1:0 
 exit 61 "SNÅ SB T2" 2c84:0.270854 500:0.00267536 twolamp left 2c84:0.270854:0 504:0.546365:0 503:1:0 502:1:0 501:1:0 500:1:0.00267536
 exit 62 "SGM NB T1" 4fe:0.792348 504:0.345422 left 4fe:0.792348:1 4ff:0:1 500:0:1 501:0:1 502:0:1 503:0:1 504:0:0.345422
 exit 63 "SGM NB T2" 2cb0:0.927004 504:0.345422 twolamp 2cb0:0.927004:1 4fe:0.82965:1 4ff:0:1 500:0:1 501:0:1 502:0:1 503:0:1 504:0:0.345422
+# Stod northbound. The loop lies west of the main, so read northbound T1's mast
+# stands right and T2's left, both on the outside. Starrgrasmyra southbound: its
+# loop lies west too when read southbound, so the same arrangement.
+exit 64 "STD NB T1" d000000a:0.616319 4fe:0.159124 d000000a:0.616319:1 4f6:0:1 d000000c:0:1 4fa:0:1 4fb:0:1 4fc:0:1 4fd:0:1 4fe:0:0.159124
+exit 65 "STD NB T2" 2cb1:0.926408 4fe:0.159124 twolamp left 2cb1:0.926408:1 d000000a:0.626718:1 4f6:0:1 d000000c:0:1 4fa:0:1 4fb:0:1 4fc:0:1 4fd:0:1 4fe:0:0.159124
+exit 66 "SGM SB T1" 4fe:0.358103 d000000a:0.66006 4fe:0.358103:0 4fd:1:0 4fc:1:0 4fb:1:0 4fa:1:0 d000000c:1:0 4f6:1:0 d000000a:1:0.66006
+exit 67 "SGM SB T2" 2cb0:0.0729965 d000000a:0.66006 twolamp left 2cb0:0.0729965:0 4fe:0.320801:0 4fd:1:0 4fc:1:0 4fb:1:0 4fa:1:0 d000000c:1:0 4f6:1:0 d000000a:1:0.66006

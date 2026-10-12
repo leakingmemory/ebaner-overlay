@@ -93,3 +93,10 @@ entry 71 "SNÅ INFS T1" 504:0.345422 504:0.730622 type C1 distant 504:0.345422:0
 entry 72 "SNÅ INFS T2" 504:0.345422 73db:0.644833 type C2 distant 504:0.345422:0.546365 2c84:0:1 73db:0:0.644833
 entry 73 "SGM INFN T1" 500:0.00267536 4fe:0.358103 type C1 distant 500:0.00267536:0 4ff:1:0 4fe:1:0.358103
 entry 74 "SGM INFN T2" 500:0.00267536 2cb0:0.0729965 type C2 distant 500:0.00267536:0 4ff:1:0 4fe:1:0.82965 2cb0:1:0.0729965
+# Starrgrasmyra from the south, with a distant: the northbound exit beyond is there.
+entry 75 "SGM INFS T1" 4fe:0.159124 4fe:0.792348 type C1 distant 4fe:0.159124:0.792348
+entry 76 "SGM INFS T2" 4fe:0.159124 2cb0:0.927004 type C2 distant 4fe:0.159124:0.320801 2cb0:0:0.927004
+# Stod from the north. No distant: the next signal a train in meets is the southbound
+# exit, and nothing south of Stod is signalled yet.
+entry 77 "STD INFN T1" d000000a:0.66006 d000000a:0.495664 type C1 d000000a:0.66006:0.495664
+entry 78 "STD INFN T2" d000000a:0.66006 2cb1:0.0735917 type C2 d000000a:0.66006:0.626718 2cb1:1:0.0735917
