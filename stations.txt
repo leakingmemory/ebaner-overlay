@@ -1,0 +1,7 @@
+# ebaner station positions: where the export's station node is not at the station.
+# World coordinates (EPSG:25833), z the rail height there. Matched by the name
+# exactly as the data spells it.
+# station "<name>" <x> <y> <z>
+# Stod: the node sat 3.5 km up the line; here it is on the main beside the middle
+# of the passing loop.
+station "Stod" 341175.491 7114511.980 36.401
