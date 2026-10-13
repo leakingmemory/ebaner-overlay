@@ -1,7 +1,7 @@
 # ebaner entry signals (main signals). The signal stands on the start
 # border and the record is the whole route into the station; several
 # sharing a start border are one signal governing them all.
-# entry <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [left] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# entry <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [distant] [twolamp] [crossing] [left] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 entry 1 "NO BOD TRACK 1 ENTRY" 709:0.601749 709:0.999678 type C1 709:0.601749:0.999678
 entry 2 "NO BOD TRACK 2 ENTRY" 709:0.601749 303b:0.16644 type C2 709:0.601749:0.823233 303b:1:0.16644
 entry 3 "NO BOD TRACK 3 ENTRY" 709:0.601749 3040:0.00586884 type C2 709:0.601749:0.78903 3040:1:0.00586884
@@ -58,45 +58,28 @@ entry 53 "NSK INFS T1" 566:0.847051 566:0.963611 type C1 distant 566:0.847051:0.
 entry 54 "NSK INFS T2" 566:0.847051 2cc4:0.933135 type C2 distant 566:0.847051:0.892815 2cc4:0:0.933135
 entry 55 "LSM INFS T1" 558:0.600857 558:0.70548 type C1 distant 558:0.600857:0.70548
 entry 56 "LSM INFS T2" 558:0.600857 73c2:0.296818 type C2 distant 558:0.600857:0.645327 2cc1:0:1 73c2:0:0.296818
-entry 57 "HAR INFN T1" 554:0.321595 554:0.215520 type C1 distant 554:0.321595:0.215520
+entry 57 "HAR INFN T1" 554:0.321595 554:0.21552 type C1 distant 554:0.321595:0.21552
 entry 58 "HAR INFN T2" 554:0.321595 73c3:0.914625 type C2 distant 554:0.321595:0.241864 2cbf:1:0 73c3:1:0.914625
-
-# No `distant` on either: the next signal a train entering Grong would meet is the
-# southbound exit signal, and there is none yet. Harran reads the same way.
-entry 59 "GRG INFN T1" 539:0.0885491 538:0.906220 type C1 distant 539:0.0885491:0 538:1:0.906220
+entry 59 "GRG INFN T1" 539:0.0885491 538:0.90622 type C1 distant 539:0.0885491:0 538:1:0.90622
 entry 60 "GRG INFN T2" 539:0.0885491 2c85:0.698578 type C2 distant 539:0.0885491:0 538:1:0.995802 2c86:1:0 716:0.440348:0.587655 2c85:1:0.698578
-
-# Harran from the south. These carry a distant because the next signal such a train
-# meets is the northbound exit, which has been there all along.
 entry 61 "HAR INFS T1" 554:0.143748 554:0.237542 type C1 distant 554:0.143748:0.237542
 entry 62 "HAR INFS T2" 554:0.143748 2cbf:0.833662 type C2 distant 554:0.143748:0.211198 73c3:0:1 2cbf:0:0.833662
-
-# Agle from the north. No distant on these: the next signal such a train meets is
-# the southbound exit, and nothing south of Agle is signalled yet - the position
-# Harran and then Grong were each in before the next station down the line arrived.
 entry 63 "AGL INFN T1" 508:0.816463 508:0.644098 type C1 distant 508:0.816463:0.644098
 entry 64 "AGL INFN T2" 508:0.816463 2cbe:0.067071 type C2 distant 508:0.816463:0.772114 2cbe:1:0.067071
-# Grong from the south, which Agle now makes possible. These do carry a distant:
-# the northbound exit beyond them has been there since Grong was signalled.
 entry 65 "GRG INFS T1" 538:0.847737 538:0.99117 type C1 distant 538:0.847737:0.99117
 entry 66 "GRG INFS T2" 538:0.847737 2c86:0.923173 type C2 distant 538:0.847737:0.895657 2c85:0:1 716:0.587655:0.440348 2c86:0:0.923173
-
-# Snasa from the north. `crossing`: crossing 14 lies 216 m inside, between this mast
-# and the station. No `distant` - the next signal a train in meets is the southbound
-# exit, and nothing south of Snasa is signalled yet.
 entry 67 "SNÅ INFN T1" 504:0.919456 504:0.579877 type C1 distant crossing 504:0.919456:0.579877
 entry 68 "SNÅ INFN T2" 504:0.919456 2c84:0.270854 type C2 distant crossing 504:0.919456:0.764134 73db:1:0 2c84:1:0.270854
-# Agle from the south, with a distant: the northbound exit beyond is there.
 entry 69 "AGL INFS T1" 508:0.58212 508:0.762917 type C1 distant 508:0.58212:0.762917
 entry 70 "AGL INFS T2" 508:0.58212 2cbe:0.932929 type C2 distant 508:0.58212:0.634901 2cbe:0:0.932929
 entry 71 "SNÅ INFS T1" 504:0.345422 504:0.730622 type C1 distant 504:0.345422:0.730622
 entry 72 "SNÅ INFS T2" 504:0.345422 73db:0.644833 type C2 distant 504:0.345422:0.546365 2c84:0:1 73db:0:0.644833
 entry 73 "SGM INFN T1" 500:0.00267536 4fe:0.358103 type C1 distant 500:0.00267536:0 4ff:1:0 4fe:1:0.358103
 entry 74 "SGM INFN T2" 500:0.00267536 2cb0:0.0729965 type C2 distant 500:0.00267536:0 4ff:1:0 4fe:1:0.82965 2cb0:1:0.0729965
-# Starrgrasmyra from the south, with a distant: the northbound exit beyond is there.
 entry 75 "SGM INFS T1" 4fe:0.159124 4fe:0.792348 type C1 distant 4fe:0.159124:0.792348
 entry 76 "SGM INFS T2" 4fe:0.159124 2cb0:0.927004 type C2 distant 4fe:0.159124:0.320801 2cb0:0:0.927004
-# Stod from the north. No distant: the next signal a train in meets is the southbound
-# exit, and nothing south of Stod is signalled yet.
 entry 77 "STD INFN T1" d000000a:0.66006 d000000a:0.495664 type C1 d000000a:0.66006:0.495664
 entry 78 "STD INFN T2" d000000a:0.66006 2cb1:0.0735917 type C2 d000000a:0.66006:0.626718 2cb1:1:0.0735917
+entry 79 "STK INFN T1" 4ee:0.0149991 4ea:0.403531 type C1 4ee:0.0149991:0 4ed:1:0 4ec:1:0 4eb:1:0 4ea:1:0.403531
+entry 80 "STK INFN T2" 4ee:0.0149991 73df:0.47574 type C2 via 2cb2:0.879616 4ee:0.0149991:0 4ed:1:0 4ec:1:0 4eb:1:0 4ea:1:0.795879 687f:1:0 2cb2:1:0 73e0:1:0 73df:1:0.47574
+entry 81 "STK INFN T3" 4ee:0.0149991 2cb7:0 type C2 4ee:0.0149991:0 4ed:1:0 4ec:1:0 4eb:1:0 4ea:1:0.795879 687f:1:0 73dc:1:0 2cb7:1:0
