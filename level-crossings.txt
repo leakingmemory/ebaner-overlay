@@ -33,3 +33,4 @@ crossing 21 "Byafossen N" 4ee:0.542578
 crossing 22 "Sunnan" 4ee:0.942754 barriers
 crossing 23 "Lorvik" 4e8:0.116177 barriers
 crossing 24 "Sparbu" 4e8:0.281798 barriers
+crossing 25 "Verdal S" d000000e:0.222099 barriers
