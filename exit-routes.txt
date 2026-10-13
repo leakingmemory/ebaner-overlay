@@ -88,3 +88,7 @@ route 84 "MÆ NB T2" 2ca5:0.091 2ca5:0.911 signal 73 type C2 2ca5:0.091:0.911
 route 85 "STK SB T1" 4ea:0.756704 4ea:0.403531 signal 74 type C1 4ea:0.756704:0.403531
 route 86 "STK SB PASS" d000000d:1 d000000d:0.433581 signal 75 type C2 d000000d:1:0.433581
 route 87 "STK SB T2" 2cb2:0.879616 73df:0.47574 signal 77 type C2 2cb2:0.879616:0 73e0:1:0 73df:1:0.47574
+route 88 "RØ NB T1" 4e4:0.87697 4e4:0.974275 signal 78 type C1 4e4:0.87697:0.974275
+route 89 "RØ NB T2" 2ca6:0.1295 2ca6:0.88 signal 79 type C2 2ca6:0.1295:0.88
+route 90 "MÆ SB T1" 4e8:0.387098 4e8:0.34572 signal 80 type C1 4e8:0.387098:0.34572
+route 91 "MÆ SB T2" 2ca5:0.911 2ca5:0.091 signal 81 type C2 2ca5:0.911:0.091

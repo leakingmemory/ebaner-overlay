@@ -231,6 +231,14 @@ border 4e8 0.387098 0 0
 border 4e8 0.39409 0 0
 border 2ca5 0.091 0 0
 border 2ca5 0.911 0 0
+border 4e4 0.751459 0 0
+border 4e4 0.847886 0 0
+border 4e4 0.87697 0 0
+border 4e4 0.974275 0 0
+border 4e5 0.051547 0 0
+border 2ca6 0.1295 0 0
+border 2ca6 0.88 0 0
+border 4e6 0.143136 0 0
 section 1 "NOBODT1" 709:0.849372:0.999678
 section 2 "NOBODT2" 303b:0.16644:0.852706
 section 3 "NOBODT2J1" 303b:0.852706:1 709:0.822124:0.849372
@@ -388,3 +396,10 @@ section 170 "MÆ T2" 2ca5:0.091:0.911
 section 171 "MÆ N SW" 4e8:0.387098:0.39409 2ca5:0.911:1
 section 172 "MÆ N" 4e8:0.39409:0.408782
 section 173 "MÆ-STK" 4e8:0.408782:0.997319
+section 174 "RØ S" 4e4:0.751459:0.847886
+section 175 "RØ S SW" 4e4:0.847886:0.87697 2ca6:0:0.1295
+section 176 "RØ T1" 4e4:0.87697:0.974275
+section 177 "RØ T2" 2ca6:0.1295:0.88
+section 178 "RØ N SW" 4e4:0.974275:1 4e5:0:0.051547 2ca6:0.88:1
+section 179 "RØ N" 4e5:0.051547:1 4e6:0:0.143136
+section 180 "RØ-MÆ" 4e6:0.143136:1 4e7:0:1 4e8:0:0.328116
