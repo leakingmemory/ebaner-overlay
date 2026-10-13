@@ -223,6 +223,14 @@ border 4ea 0.161407 0 0
 border 4e8 0.997319 0 0
 border 73e1 0.40065 0 0
 border 4ee 0.0149991 0 0
+border 4e8 0.408782 0 0
+border 4e8 0.328116 0 0
+border 4e8 0.338627 0 0
+border 4e8 0.34572 0 0
+border 4e8 0.387098 0 0
+border 4e8 0.39409 0 0
+border 2ca5 0.091 0 0
+border 2ca5 0.911 0 0
 section 1 "NOBODT1" 709:0.849372:0.999678
 section 2 "NOBODT2" 303b:0.16644:0.852706
 section 3 "NOBODT2J1" 303b:0.852706:1 709:0.822124:0.849372
@@ -373,3 +381,10 @@ section 163 "STK T1" 4ea:0.403531:0.756704
 section 164 "STK T3" 2cb7:0:0.828865
 section 165 "STK N" 4ee:0:0.0149991 4ed:0:1 4ec:0:1 4eb:0:1 4ea:0.828289:1
 section 166 "STK-STD" 4ee:0.0149991:1 4ef:0:1 4f0:0:1 d000000b:0:1 4f4:0:1 4f5:0:1 d0000009:0:1 d000000a:0:0.452541
+section 167 "MÆ S" 4e8:0.328116:0.338627
+section 168 "MÆ S SW" 4e8:0.338627:0.34572 2ca5:0:0.091
+section 169 "MÆ T1" 4e8:0.34572:0.387098
+section 170 "MÆ T2" 2ca5:0.091:0.911
+section 171 "MÆ N SW" 4e8:0.387098:0.39409 2ca5:0.911:1
+section 172 "MÆ N" 4e8:0.39409:0.408782
+section 173 "MÆ-STK" 4e8:0.408782:0.997319
