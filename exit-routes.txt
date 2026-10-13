@@ -50,32 +50,22 @@ route 46 "MAJ SB T1" 578:0.971558 578:0.909296 signal 36 type C1 578:0.971558:0.
 route 47 "MAJ SB T2" de8:0.932856 de8:0.0803162 signal 37 type C2 de8:0.932856:0.0803162
 route 48 "NSK NB T1" 566:0.899123 566:0.963611 signal 38 type C1 566:0.899123:0.963611
 route 49 "NSK NB T2" 2cc4:0.080048 2cc4:0.933135 signal 39 type C2 2cc4:0.080048:0.933135
-route 50 "LSM NB T1" 558:0.650325 558:0.705480 signal 40 type C1 558:0.650325:0.705480
+route 50 "LSM NB T1" 558:0.650325 558:0.70548 signal 40 type C1 558:0.650325:0.70548
 route 51 "LSM NB T2" 2cc1:0.086038 73c2:0.296818 signal 41 type C2 2cc1:0.086038:1 73c2:0:0.296818
 route 52 "NSK SB T1" 566:0.963611 566:0.899123 signal 42 type C1 566:0.963611:0.899123
 route 53 "NSK SB T2" 2cc4:0.933135 2cc4:0.080048 signal 43 type C2 2cc4:0.933135:0.080048
 route 54 "LSM SB T1" 558:0.70548 558:0.650325 signal 44 type C1 558:0.70548:0.650325
 route 55 "LSM SB T2" 73c2:0.296818 2cc1:0.086038 signal 45 type C2 73c2:0.296818:0 2cc1:1:0.086038
-route 56 "HAR NB T1" 554:0.215520 554:0.237542 signal 46 type C1 554:0.215520:0.237542
+route 56 "HAR NB T1" 554:0.21552 554:0.237542 signal 46 type C1 554:0.21552:0.237542
 route 57 "HAR NB T2" 73c3:0.914625 2cbf:0.833662 signal 47 type C2 73c3:0.914625:1 2cbf:0:0.833662
-
-# Grong, northbound only: nothing south of here is signalled yet, which is the
-# position Harran was in until now.
-route 58 "GRG NB T1" 538:0.906220 538:0.991170 signal 48 type C1 538:0.906220:0.991170
+route 58 "GRG NB T1" 538:0.90622 538:0.99117 signal 48 type C1 538:0.90622:0.99117
 route 59 "GRG NB T2" 2c85:0.698578 2c86:0.923173 signal 49 type C2 2c85:0.698578:1 716:0.587655:0.440348 2c86:0:0.923173
-
-# Harran southbound, which only becomes possible now that Grong is signalled.
-route 60 "HAR SB T1" 554:0.237542 554:0.215520 signal 50 type C1 554:0.237542:0.215520
+route 60 "HAR SB T1" 554:0.237542 554:0.21552 signal 50 type C1 554:0.237542:0.21552
 route 61 "HAR SB T2" 2cbf:0.833662 73c3:0.914625 signal 51 type C2 2cbf:0.833662:0 73c3:1:0.914625
-
-# Agle northbound, and the southbound half of Grong that Agle now makes possible.
 route 62 "AGL NB T1" 508:0.644098 508:0.762917 signal 52 type C1 508:0.644098:0.762917
 route 63 "AGL NB T2" 2cbe:0.067071 2cbe:0.932929 signal 53 type C2 2cbe:0.067071:0.932929
 route 64 "GRG SB T1" 538:0.99117 538:0.90622 signal 54 type C1 538:0.99117:0.90622
 route 65 "GRG SB T2" 2c86:0.923173 2c85:0.698578 signal 55 type C2 2c86:0.923173:0 716:0.440348:0.587655 2c85:1:0.698578
-
-# Snasa northbound - nothing south of it is signalled yet - and the southbound half of
-# Agle that Snasa makes possible.
 route 66 "SNÅ NB T1" 504:0.579877 504:0.730622 signal 56 type C1 504:0.579877:0.730622
 route 67 "SNÅ NB T2" 2c84:0.270854 73db:0.644833 signal 57 type C2 2c84:0.270854:1 73db:0:0.644833
 route 68 "AGL SB T1" 508:0.762917 508:0.644098 signal 58 type C1 508:0.762917:0.644098
@@ -84,9 +74,10 @@ route 70 "SNÅ SB T1" 504:0.730622 504:0.579877 signal 60 type C1 504:0.730622:0
 route 71 "SNÅ SB T2" 73db:0.644833 2c84:0.270854 signal 61 type C2 73db:0.644833:0 2c84:1:0.270854
 route 72 "SGM NB T1" 4fe:0.358103 4fe:0.792348 signal 62 type C1 4fe:0.358103:0.792348
 route 73 "SGM NB T2" 2cb0:0.0729965 2cb0:0.927004 signal 63 type C2 2cb0:0.0729965:0.927004
-# Stod northbound - nothing south of it is signalled yet - and the southbound half of
-# Starrgrasmyra that Stod makes possible.
 route 74 "STD NB T1" d000000a:0.495664 d000000a:0.616319 signal 64 type C1 d000000a:0.495664:0.616319
 route 75 "STD NB T2" 2cb1:0.0735917 2cb1:0.926408 signal 65 type C2 2cb1:0.0735917:0.926408
 route 76 "SGM SB T1" 4fe:0.792348 4fe:0.358103 signal 66 type C1 4fe:0.792348:0.358103
 route 77 "SGM SB T2" 2cb0:0.927004 2cb0:0.0729965 signal 67 type C2 2cb0:0.927004:0.0729965
+route 78 "STK NB T1" 4ea:0.403531 4ea:0.756704 signal 68 type C1 4ea:0.403531:0.756704
+route 79 "STK NB T2" 73df:0.47574 687f:0.291631 signal 69 type C2 via 2cb2:0.879616 73df:0.47574:1 73e0:0:1 2cb2:0:1 687f:0:0.291631
+route 80 "STK NB T3" 2cb7:0 687f:0.291631 signal 69 type C2 2cb7:0:1 73dc:0:1 687f:0:0.291631
