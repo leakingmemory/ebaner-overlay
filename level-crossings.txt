@@ -35,3 +35,5 @@ crossing 23 "Lorvik" 4e8:0.116177 barriers
 crossing 24 "Sparbu" 4e8:0.281798 barriers
 crossing 25 "Verdal S" d000000e:0.222099 barriers
 crossing 26 "Verdal N" 4e2:0.0762787 barriers
+crossing 27 "Moakeren" 4e2:0.357496 barriers
+crossing 28 "Tronesvegen" 4e2:0.448022 barriers

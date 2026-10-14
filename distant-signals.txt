@@ -48,7 +48,9 @@ distant 47 "STD N" d000000a:0.777929 -
 distant 48 "SGM S" 4fc:0.845543 +
 distant 49 "STK N" 4ee:0.144898 -
 distant 50 "STD S" d000000a:0.251967 +
-distant 51 "MAE N" 4e8:0.469369 -
+distant 51 "MÆ N" 4e8:0.469369 -
 distant 52 "STK S" 4e8:0.922275 + left
-distant 53 "ROE N" 4e6:0.622797 -
-distant 54 "MAE S" 4e8:0.269923 +
+distant 53 "RØ N" 4e6:0.622797 -
+distant 54 "MÆ S" 4e8:0.269923 +
+distant 55 "VDL N" 4e2:0.280288 -
+distant 56 "RØ S" 4e4:0.439857 +
