@@ -40,3 +40,4 @@ crossing 28 "Tronesvegen" 4e2:0.448022 barriers
 crossing 30 "Rinnan" 4da:0.787814 barriers
 crossing 31 "Salthammar" 4da:0.413645 barriers
 crossing 32 "Roknes" 4d8:0.856657
+crossing 33 "Verdal siding" 714:0.210816 barriers

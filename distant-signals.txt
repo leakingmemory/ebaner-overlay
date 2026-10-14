@@ -54,3 +54,5 @@ distant 53 "RØ N" 4e6:0.622797 -
 distant 54 "MÆ S" 4e8:0.269923 +
 distant 55 "VDL N" 4e2:0.280288 -
 distant 56 "RØ S" 4e4:0.439857 +
+distant 57 "LEV S" 4dc:0.854249 +
+distant 58 "BEG N" 4dc:0.85393 -
