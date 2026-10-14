@@ -37,7 +37,6 @@ crossing 25 "Verdal S" d000000e:0.222099 barriers
 crossing 26 "Verdal N" 4e2:0.0762787 barriers
 crossing 27 "Moakeren" 4e2:0.357496 barriers
 crossing 28 "Tronesvegen" 4e2:0.448022 barriers
-crossing 29 "Bergsgrav" 4dc:0.078093 barriers
 crossing 30 "Rinnan" 4da:0.787814 barriers
 crossing 31 "Salthammar" 4da:0.413645 barriers
 crossing 32 "Roknes" 4d8:0.856657
