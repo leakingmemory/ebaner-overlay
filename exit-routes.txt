@@ -92,3 +92,7 @@ route 88 "RØ NB T1" 4e4:0.87697 4e4:0.974275 signal 78 type C1 4e4:0.87697:0.97
 route 89 "RØ NB T2" 2ca6:0.1295 2ca6:0.88 signal 79 type C2 2ca6:0.1295:0.88
 route 90 "MÆ SB T1" 4e8:0.387098 4e8:0.34572 signal 80 type C1 4e8:0.387098:0.34572
 route 91 "MÆ SB T2" 2ca5:0.911 2ca5:0.091 signal 81 type C2 2ca5:0.911:0.091
+route 92 "VDL NB T1" 4e2:0.0125702 4e2:0.0666684 signal 82 type C1 4e2:0.0125702:0.0666684
+route 93 "VDL NB T2" 73e3:0.950089 2ca7:0.793844 signal 83 type C2 73e3:0.950089:1 2ca7:0:0.793844
+route 94 "RØ SB T1" 4e4:0.974275 4e4:0.87697 signal 84 type C1 4e4:0.974275:0.87697
+route 95 "RØ SB T2" 2ca6:0.88 2ca6:0.1295 signal 85 type C2 2ca6:0.88:0.1295
