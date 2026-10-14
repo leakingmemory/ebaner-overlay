@@ -56,3 +56,7 @@ distant 55 "VDL N" 4e2:0.280288 -
 distant 56 "RØ S" 4e4:0.439857 +
 distant 57 "LEV S" 4dc:0.854249 +
 distant 58 "BEG N" 4dc:0.85393 -
+distant 59 "BEG S" 4da:0.871456 +
+distant 60 "BEG-LEV" 4da:0.266409 -
+distant 61 "LEV-BEG" 4d8:0.629983 +
+distant 62 "LEV N" 4d8:0.14991 -
