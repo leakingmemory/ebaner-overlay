@@ -60,3 +60,5 @@ distant 59 "BEG S" 4da:0.871456 +
 distant 60 "BEG-LEV" 4da:0.266409 -
 distant 61 "LEV-BEG" 4d8:0.629983 +
 distant 62 "LEV N" 4d8:0.14991 -
+distant 63 "SGN N" 4d0:0.79727 -
+distant 64 "LEV S" 4d2:0.00274687 +
