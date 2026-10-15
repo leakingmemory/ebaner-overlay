@@ -282,6 +282,8 @@ border 4d0 0.72742 0 0
 border 4d0 0.732045 0 0
 border 2c9f 0.105 0 0
 border 73f0 0.7995 0 0
+border 4d0 0.41272 0 0
+border 4d0 0.371337 0 0
 section 1 "NOBODT1" 709:0.849372:0.999678
 section 2 "NOBODT2" 303b:0.16644:0.852706
 section 3 "NOBODT2J1" 303b:0.852706:1 709:0.822124:0.849372
