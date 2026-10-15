@@ -45,7 +45,7 @@ switch 2c86 371867.419 7150635.339 motor lock 124
 switch 2c86 372018.438 7151078.500 motor lock 122
 switch 73ef 317168.500 7073569.500 motor lock 193
 switch 2ca3 317215.625 7073605.000 motor lock 193
-switch d0000010 317267.719 7073643.143 motor lock 193
+switch d0000010 317267.719 7073643.143 motor lock 196
 switch 2c9d 317311.375 7073675.000 motor lock 200
 switch 2c9d 317623.594 7073958.000 motor lock 201
 switch 2ca1 317645.875 7073983.500 motor lock 196
@@ -103,3 +103,9 @@ noswitch 317623.594 7073958.000 3.000 73eb
 noswitch 317592.125 7073922.500 3.000 2ca2
 noswitch 317645.875 7073983.500 3.000 73ec
 noswitch 317684.812 7074026.500 3.000 73e4
+# Skogn: T3 (2c9c) is hand thrown and outside the signalling; its twin at the
+# point where T2, T3 and 73f0 meet sends Diverging onto T3 too, and goes.
+switch 70a 311741.219 7069254.000 motor lock 205
+switch 2c9f 311910.719 7069608.000 motor lock 207
+switch 73f0 312238.000 7070313.000 motor lock 210
+noswitch 312133.094 7070060.000 3.000 2c9f
