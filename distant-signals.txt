@@ -64,3 +64,5 @@ distant 63 "SGN N" 4d0:0.79727 -
 distant 64 "LEV S" 4d2:0.00274687 +
 distant 65 "SGN S" 4d0:0.620252 +
 distant 66 "RLA N" 4d0:0.458197 -
+distant 67 "ÅSE N" 4d0:0.0848909 - left
+distant 68 "RLA S" 4d0:0.324787 +
