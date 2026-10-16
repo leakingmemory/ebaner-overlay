@@ -20,3 +20,7 @@ block 8 "AGL-GRG S" 526:0.657422 -
 # Between Levanger and Bergsgrav, the pair back to back on the one border.
 block 9 "LEV-BEG N" 4d8:0.873686 +
 block 10 "LEV-BEG S" 4d8:0.873686 -
+
+# Between Langstein and Åsen, the pair back to back on the one border.
+block 11 "LST-ÅSE N" 4cc:0.847429 +
+block 12 "LST-ÅSE S" 4cc:0.847429 - left
