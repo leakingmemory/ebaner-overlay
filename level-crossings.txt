@@ -44,3 +44,5 @@ crossing 33 "Verdal siding" 714:0.210816 barriers
 crossing 34 "Skogn" 4d0:0.691379 barriers
 crossing 36 "Skatval" 4cc:0.23322 barriers
 crossing 37 "Svea" 4cc:0.479235 barriers
+crossing 38 "STJ N" 4ca:0.23821 barriers
+crossing 39 "STJ" 4c8:0.542969 also e50:0.721003 barriers
