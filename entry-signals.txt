@@ -132,3 +132,7 @@ entry 127 "SKV INFN T1" 4cc:0.243025 4cc:0.192504 type C1 distant crossing 4cc:0
 entry 128 "SKV INFN T2" 4cc:0.243025 2c94:0.126573 type C2 distant crossing 4cc:0.243025:0.232944 2c94:1:0.126573
 entry 129 "LST INFS T1" 4cc:0.575565 4cc:0.60887 type C1 distant 4cc:0.575565:0.60887
 entry 130 "LST INFS T2" 4cc:0.575565 2c87:0.980401 type C2 distant 4cc:0.575565:0.591947 2c91:0:1 2c8d:0:1 73f3:0:1 2c87:0:0.980401
+entry 131 "STJ INFN T1" 4c8:0.963639 4c8:0.111488 type C1 distant crossing 4c8:0.963639:0.111488
+entry 132 "STJ INFN T2" 4c8:0.963639 e50:0.121831 type C2 distant crossing 4c8:0.963639:0.743904 e50:1:0.121831
+entry 133 "SKV INFS T1" 4cc:0.1717 4cc:0.221544 type C1 distant 4cc:0.1717:0.221544
+entry 134 "SKV INFS T2" 4cc:0.1717 2c94:0.753316 type C2 distant 4cc:0.1717:0.186658 2c94:0:0.753316
