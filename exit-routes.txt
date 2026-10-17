@@ -1,6 +1,6 @@
 # ebaner exit routes: the authority to move from a border inside the
 # station up to an exit signal, which the signal then displays.
-# route <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# route <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [crossing] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 route 1 "NO BOD TRACK 1 EXIT" 709:0.849372 709:0.755826 signal 1 type C1 709:0.849372:0.755826
 route 2 "NO BOD TRACK 2 EXIT" 303b:0.852706 709:0.755826 signal 1 type C2 303b:0.852706:1 709:0.823233:0.755826
 route 3 "NO BOD TRACK 3 EXIT" 3040:0.756685 709:0.755826 signal 1 type C2 3040:0.756685:1 709:0.78903:0.755826
@@ -130,7 +130,7 @@ route 126 "SKV NB T1" 4cc:0.192504 4cc:0.221544 signal 112 type C1 4cc:0.192504:
 route 127 "SKV NB T2" 2c94:0.126573 2c94:0.753316 signal 113 type C2 2c94:0.126573:0.753316
 route 128 "LST SB T1" 4cc:0.60887 4cc:0.594199 signal 114 type C1 4cc:0.60887:0.594199
 route 129 "LST SB T2" 2c87:0.980401 2c91:0.352941 signal 115 type C2 2c87:0.980401:0 73f3:1:0 2c8d:1:0 2c91:1:0.352941
-route 130 "STJ NB T1" 4c8:0.485731 4c8:0.698994 signal 116 type C1 4c8:0.485731:0.698994
-route 131 "STJ NB T2" e50:0.641513 e50:0.937925 signal 117 type C2 e50:0.641513:0.937925
+route 130 "STJ NB T1" 4c8:0.485731 4c8:0.698994 signal 116 type C1 crossing 4c8:0.485731:0.698994
+route 131 "STJ NB T2" e50:0.641513 e50:0.937925 signal 117 type C2 crossing e50:0.641513:0.937925
 route 132 "SKV SB T1" 4cc:0.221544 4cc:0.192504 signal 118 type C1 4cc:0.221544:0.192504
 route 133 "SKV SB T2" 2c94:0.753316 2c94:0.126573 signal 119 type C2 2c94:0.753316:0.126573
