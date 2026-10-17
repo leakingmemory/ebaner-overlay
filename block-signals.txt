@@ -26,5 +26,5 @@ block 11 "LST-ÅSE N" 4cc:0.847429 + left
 block 12 "LST-ÅSE S" 4cc:0.847429 -
 
 # Between Skatval and Langstein, the pair back to back on the one border.
-block 13 "SKV-LST N" 4cc:0.397022 + left
-block 14 "SKV-LST S" 4cc:0.397022 -
+block 13 "SKV-LST N" 4cc:0.397022 +
+block 14 "SKV-LST S" 4cc:0.397022 - left
