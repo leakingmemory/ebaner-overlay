@@ -24,3 +24,7 @@ block 10 "LEV-BEG S" 4d8:0.873686 -
 # Between Langstein and Åsen, the pair back to back on the one border.
 block 11 "LST-ÅSE N" 4cc:0.847429 + left
 block 12 "LST-ÅSE S" 4cc:0.847429 -
+
+# Between Skatval and Langstein, the pair back to back on the one border.
+block 13 "SKV-LST N" 4cc:0.397022 + left
+block 14 "SKV-LST S" 4cc:0.397022 -

@@ -70,3 +70,7 @@ distant 69 "LST N" 4cc:0.670103 - left
 distant 70 "LST-ÅSE" 4cc:0.81697 +
 distant 71 "ÅSE-LST" 4cc:0.882772 - left
 distant 72 "ÅSE S" 4cc:0.997622 + left
+distant 73 "SKV N" 4cc:0.2833 -
+distant 74 "SKV-LST" 4cc:0.359665 +
+distant 75 "LST-SKV" 4cc:0.434378 -
+distant 76 "LST S" 4cc:0.534475 + left
