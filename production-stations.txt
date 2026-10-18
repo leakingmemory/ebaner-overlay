@@ -1,7 +1,7 @@
 # ebaner production stations: the ones finished enough to offer as a place to start.
-# The pickers list them in this order, which runs along the line, and put every other
-# station under one last row, "Under development (not finished)". Matched by the name
-# exactly as the data spells it.
+# The pickers list them first, grouped by line and alphabetical inside each, and put
+# every other station under one last row, "Under development (not finished)". Matched
+# by the name exactly as the data spells it. Kept here in the order the line runs.
 # station "<name>"
 station "Stjørdal"
 station "Vold"
