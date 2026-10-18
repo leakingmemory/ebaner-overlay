@@ -77,3 +77,5 @@ distant 76 "LST S" 4cc:0.534475 + left
 distant 77 "STJ N" 4ca:0.532923 -
 distant 78 "SKV S" 4cc:0.125546 +
 distant 79 "HEL EB" 715:0.619654 +
+distant 80 "HEL S" 4bf:0.577372 +
+distant 81 "HMV N" 4bf:0.164794 -
