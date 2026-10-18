@@ -37,3 +37,6 @@ txp 30 "MOS T3" 244b:0.167153 - R
 txp 31 "MOS T4" 24b4:0.180954 - L
 txp 32 "EIT T1" 5b6:0.736484 + L
 txp 33 "EIT T2" 3658:0.732166 + R
+txp 34 "Hell T1" 715:0.444975 + R
+txp 35 "Hell T2" d0000012:0.77225 + R
+txp 36 "Hell East" d0000015:0.0166624 + R
