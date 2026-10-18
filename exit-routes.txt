@@ -1,6 +1,6 @@
 # ebaner exit routes: the authority to move from a border inside the
 # station up to an exit signal, which the signal then displays.
-# route <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [crossing] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
+# route <id> "<name>" <startTrackHex>:<frac> <endTrackHex>:<frac> [signal <exitId> type <C1|C2>] [onward <C1|C2>]... [crossing] [station "<name>"] [via <trackHex>:<frac>]... <trackHex>:<from>:<to> ...
 route 1 "NO BOD TRACK 1 EXIT" 709:0.849372 709:0.755826 signal 1 type C1 709:0.849372:0.755826
 route 2 "NO BOD TRACK 2 EXIT" 303b:0.852706 709:0.755826 signal 1 type C2 303b:0.852706:1 709:0.823233:0.755826
 route 3 "NO BOD TRACK 3 EXIT" 3040:0.756685 709:0.755826 signal 1 type C2 3040:0.756685:1 709:0.78903:0.755826
@@ -86,7 +86,7 @@ route 82 "STD SB T2" 2cb1:0.926408 2cb1:0.0735917 signal 71 type C2 2cb1:0.92640
 route 83 "MÆ NB T1" 4e8:0.34572 4e8:0.387098 signal 72 type C1 4e8:0.34572:0.387098
 route 84 "MÆ NB T2" 2ca5:0.091 2ca5:0.911 signal 73 type C2 2ca5:0.091:0.911
 route 85 "STK SB T1" 4ea:0.756704 4ea:0.403531 signal 74 type C1 4ea:0.756704:0.403531
-route 86 "STK SB PASS" d000000d:1 d000000d:0.433581 signal 75 type C2 d000000d:1:0.433581
+route 86 "STK SB PASS" d000000d:1 d000000d:0.433581 signal 75 type C2 onward C2 d000000d:1:0.433581
 route 87 "STK SB T2" 2cb2:0.879616 73df:0.47574 signal 77 type C2 2cb2:0.879616:0 73e0:1:0 73df:1:0.47574
 route 88 "RØ NB T1" 4e4:0.87697 4e4:0.974275 signal 78 type C1 4e4:0.87697:0.974275
 route 89 "RØ NB T2" 2ca6:0.1295 2ca6:0.88 signal 79 type C2 2ca6:0.1295:0.88
@@ -134,3 +134,11 @@ route 130 "STJ NB T1" 4c8:0.485731 4c8:0.698994 signal 116 type C1 crossing 4c8:
 route 131 "STJ NB T2" e50:0.641513 e50:0.937925 signal 117 type C2 crossing e50:0.641513:0.937925
 route 132 "SKV SB T1" 4cc:0.221544 4cc:0.192504 signal 118 type C1 4cc:0.221544:0.192504
 route 133 "SKV SB T2" 2c94:0.753316 2c94:0.126573 signal 119 type C2 2c94:0.753316:0.126573
+route 134 "HEL NB T3" 4c0:0.237518 4c0:0.977227 signal 120 type C1 4c0:0.237518:0.977227
+route 135 "STJ SB T1" 4c8:0.485731 4c8:0.111488 signal 121 type C1 4c8:0.485731:0.111488
+route 136 "STJ SB T2" e50:0.641513 e50:0.121831 signal 122 type C2 e50:0.641513:0.121831
+route 137 "HEL NB T1" 715:0.159893 715:0.456928 signal 123 type C2 715:0.159893:0.456928
+route 138 "HEL NB T2" 2c88:0.15804 d0000012:0.914989 signal 124 type C2 2c88:0.15804:1 d0000012:0:0.914989
+route 139 "HEL EB East" d0000015:0.875751 715:0.861581 signal 126 type C2 d0000015:0.875751:1 715:0.669965:0.861581
+route 140 "HEL EB T1" 715:0.159893 715:0.456928 signal 127 type C1 715:0.159893:0.456928
+route 141 "HEL EB T2" 2c88:0.15804 d0000012:0.914989 signal 128 type C2 2c88:0.15804:1 d0000012:0:0.914989
