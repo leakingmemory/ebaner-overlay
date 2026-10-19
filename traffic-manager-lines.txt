@@ -46,6 +46,7 @@ station "Stjørdal"
 station "Hell"
 station "Hommelvik"
 station "Midtsandan"
+station "Vikhammer"
 
 line "Meråkerbanen"
 station "Hell"

@@ -28,3 +28,7 @@ block 12 "LST-ÅSE S" 4cc:0.847429 -
 # Between Skatval and Langstein, the pair back to back on the one border.
 block 13 "SKV-LST N" 4cc:0.397022 +
 block 14 "SKV-LST S" 4cc:0.397022 - left
+
+# Between Vikhammer and Midtsandan, the pair back to back on the one border.
+block 15 "VHR-MSD N" 4b6:0.867566 + left
+block 16 "VHR-MSD S" 4b6:0.867566 -
