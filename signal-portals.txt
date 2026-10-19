@@ -1,0 +1,3 @@
+# Signal portals: a beam over the line that main signals hang from.
+# portal <id> "<name>" <trackHex>:<frac> [<trackHex>:<frac>] [height <m>]
+portal 1 "HEL S" 715:0.159893 4c0:0.345583
