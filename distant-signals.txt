@@ -79,3 +79,5 @@ distant 78 "SKV S" 4cc:0.125546 +
 distant 79 "HEL EB" 715:0.619654 +
 distant 80 "HEL S" 4bf:0.577372 +
 distant 81 "HMV N" 4bf:0.164794 -
+distant 83 "MSD N" d000001a:0.668981 -
+distant 84 "HMV S" d000001a:0.840856 + left

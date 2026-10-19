@@ -5,3 +5,6 @@
 # Stod: the node sat 3.5 km up the line; here it is on the main beside the middle
 # of the passing loop.
 station "Stod" 341175.491 7114511.980 36.401
+# Midtsandan: the node sat at Hommelvik's south end; here it is on the main beside the
+# middle of the passing loop.
+station "Midtsandan" 287232.432 7040824.463 9.963

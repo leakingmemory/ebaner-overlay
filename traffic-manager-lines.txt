@@ -45,6 +45,7 @@ station "Skatval"
 station "Stjørdal"
 station "Hell"
 station "Hommelvik"
+station "Midtsandan"
 
 line "Meråkerbanen"
 station "Hell"
