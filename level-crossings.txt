@@ -47,3 +47,4 @@ crossing 37 "Svea" 4cc:0.479235 barriers
 crossing 38 "STJ N" 4ca:0.23821 barriers
 crossing 39 "STJ" 4c8:0.542969 also e50:0.721003 barriers
 crossing 40 "Crossing of Hell" 715:0.859189 barriers
+crossing 41 "Grytbakkstranda" 4b6:0.12745 barriers
