@@ -3,8 +3,11 @@
 # every other station under one last row, "Under development (not finished)". Matched
 # by the name exactly as the data spells it. Kept here in the order the line runs.
 # station "<name>"
+station "Vikhammer"
 station "Midtsandan"
+station "Hallstad"
 station "Hommelvik"
+station "Muruvik"
 station "Hell"
 station "Værnes"
 station "Stjørdal"

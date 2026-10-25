@@ -47,6 +47,7 @@ station "Hell"
 station "Hommelvik"
 station "Midtsandan"
 station "Vikhammer"
+station "Ranheim"
 
 line "Meråkerbanen"
 station "Hell"
