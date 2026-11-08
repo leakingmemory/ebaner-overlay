@@ -89,3 +89,7 @@ distant 89 "RHM N" 4b6:0.174765 -
 distant 90 "RHM-VHR" 4b6:0.228232 +
 distant 91 "VHR-RHM" 4b6:0.379309 -
 distant 92 "VHR S" 4b6:0.411899 +
+
+# Between Leangen and Ranheim, about 1 km out from each entry.
+distant 93 "RHM S" 4b2:0.202922 +
+distant 94 "LEN N" 4b0:0.229413 -
