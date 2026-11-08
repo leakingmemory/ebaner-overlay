@@ -1,0 +1,6 @@
+# water <sea|lake> <level> <x> <y> ... : open water, its shore in order (EPSG:25833).
+# Every terrain cell whose centre is inside becomes water, flat at <level> metres.
+
+# Nidelva's mouth at Trondheim S: from the junction with Kanalen, under Nidelv bru, out
+# along Brattøra to the fjord. The survey filled it in at 3 m, and 4-7 m around the bridge.
+water sea 0.0 270965 7042380 270965 7042470 271008 7042485 271010 7042510 271030 7042535 271050 7042560 271080 7042610 271380 7043310 271550 7043310 271200 7042620 271190 7042600 271155 7042570 271155 7042530 271145 7042510 271125 7042490 271120 7042450 271120 7042430 271140 7042410 271170 7042390 271170 7042380
